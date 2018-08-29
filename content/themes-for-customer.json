@@ -1,0 +1,27 @@
+{
+    "title":"As customer, how to manage your projects on the project Console",
+    "description":"You are customer of an Akeneo project, and you want to get access to your PIM archive, manage your clouds instance or get access to the support.",
+    "img":"illus-using.svg",
+    "themes":{
+        "get-source-code":{
+            "title": "Access the Akeneo PIM Enterprise archive and extensions",
+            "img": "illus-using.svg",
+            "description": "You start an Akeneo project and you want to get the archive from the Enterprise Repository to install it and start to develop."
+        },
+        "manage-flexibility-instance":{
+          "title": "Set up and manage accesses to your Flexibility cloud instance",
+          "img": "illus-using.svg",
+          "description": "Fill the form to set up your instance, and manage the accesses to the instance server"
+        },
+        "manage-serenity-instance":{
+            "title": "Set up your Serenity cloud instance",
+            "img": "illus-using.svg",
+            "description": "Before the first usage of the instance, fill the form to set it up."
+        },
+        "get-support-access":{
+            "title": "Get support access",
+            "img": "illus-using.svg",
+            "description": "Manage the access to the Akeneo Helpdesk for your team."
+        }
+    }
+}

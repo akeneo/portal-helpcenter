@@ -1,0 +1,27 @@
+{
+    "title":"As System Integrator, manage your projects on the project Console",
+    "description":"You are System Integrator or Partner who manage Akeneo projects. For your customers, you want to get access to the licence enterprise, manage the cloud instance or get access to the support.",
+    "img":"illus-using.svg",
+    "themes":{
+        "get-source-code":{
+            "title": "Access the Akeneo PIM Enterprise archive and extensions",
+            "img": "illus-using.svg",
+            "description": "You start an Akeneo project and you want to get the archive from the Enterprise Repository to install it and start to develop."
+        },
+        "manage-flexibility-instance":{
+            "title": "Set up and manage accesses to your Flexibility cloud instance",
+            "img": "illus-using.svg",
+            "description": "Set up your instance, and manage the accesses to the instance server"
+        },
+        "manage-serenity-instance":{
+            "title": "Set up your Serenity cloud instance",
+            "img": "illus-using.svg",
+            "description": "Before the first usage of the instance, set it up."
+        },
+        "get-support-access":{
+            "title": "Get support access",
+            "img": "illus-using.svg",
+            "description": "Manage the access to the Akeneo Helpdesk for your team."
+        }
+    }
+}
