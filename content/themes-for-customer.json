@@ -18,7 +18,7 @@
             "img": "illus-using.svg",
             "description": "I want to set up my serenity instance."
         },
-        "get-support-access":{
+        "support-access":{
             "title": "Get support access",
             "img": "illus-using.svg",
             "description": "Manage the access to the Akeneo Helpdesk for your team."
