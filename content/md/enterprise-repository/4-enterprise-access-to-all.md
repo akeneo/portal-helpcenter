@@ -1,6 +1,5 @@
 ---
-id: enteprise-access-to-all
-themes: get-source-code
+id: enterprise-access-to-all
 title: Give access to all your developers to the Enterprise Repository
 popular: false
 ---
@@ -9,14 +8,14 @@ popular: false
 
 As project manager or supervisor, you can automatize the access to all your console users with a public key on their profile.
 
-* First from the menu, go to `Console / Project` and select your project.
-* On `SSH Key Access` sub tab
-* Click on `Change access policy` 
-* Switch on Access to all your company contacts
-* Click `Save` button
+1. First from the menu, go to `Console / Project` and select your project.
+2. On `SSH Key Access` sub-tab
+3. Click on `Change access policy` 
+4. Switch on Access to all your company contacts
+5. Click `Save` button
 
 [screenshot]
 
 ::: info
-If you disable the automatic access to the repository, current access are not changed and you need to remove the access key you want manually.
+If you disable the automatic access to the repository, current access is not changed and you need to remove the access key you want manually.
 :::

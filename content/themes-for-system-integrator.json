@@ -1,22 +1,22 @@
 {
-    "title":"As System Integrator, manage your projects on the project Console",
-    "description":"You are System Integrator or Partner who manage Akeneo projects. For your customers, you want to get access to the licence enterprise, manage the cloud instance or get access to the support.",
+    "title":"I am a PIM System Integrator",
+    "description":"I am a PIM system integrator or partner who manage Akeneo projects. For my customers, I want to get access to the Enterprise licence, manage the cloud instance or get access to the support.",
     "img":"illus-using.svg",
     "themes":{
         "get-source-code":{
-            "title": "Access the Akeneo PIM Enterprise archive and extensions",
+            "title": "Manage the access to the PIM Enterprise archive and extensions",
             "img": "illus-using.svg",
-            "description": "You start an Akeneo project and you want to get the archive from the Enterprise Repository to install it and start to develop."
+            "description": "I start an Akeneo project and I want to get the archive from the Enterprise Repository to install it and start to develop."
         },
         "manage-flexibility-instance":{
-            "title": "Set up and manage accesses to your Flexibility cloud instance",
+            "title": "Set up and manage the access of a Flexibility cloud instance",
             "img": "illus-using.svg",
-            "description": "Set up your instance, and manage the accesses to the instance server"
+            "description": "I want to set up the customer instance, and manage the accesses to the instance server"
         },
         "manage-serenity-instance":{
-            "title": "Set up your Serenity cloud instance",
+            "title": "Set up a Serenity cloud instance",
             "img": "illus-using.svg",
-            "description": "Before the first usage of the instance, set it up."
+            "description": "I want to set up a serenity instance."
         },
         "get-support-access":{
             "title": "Get support access",

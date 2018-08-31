@@ -3,41 +3,40 @@ id: remove-enterprise-edition-access
 themes: get-source-code
 title: "**Remove access** to Akeneo PIM Enterprise Edition (EE) repository"
 popular: true
-related: console-activity-history
+related: 
 ---
 
 # Remove the accesses to the Enterprise Repository
 
-## Remove a public key access of an user
+## Remove a public key access of a user
 
-As Project Manager, you can delete contact key accesses for the user of your company.
+As a project manager, you can delete contact key accesses for the user of your company.
 
-* First from the menu, go to `Console / Project` and select your project.
-* Go to `Enterprise Repository` tab, and `SSH Key Access` subtab.
-* Click on the trash icon in Contact Key Access list
+1. First from the menu, go to `Console / Project` and select your project.
+2. Go to `Enterprise Repository` tab, and `SSH Key Access` subtab.
+3. Click on the trash icon in Contact Key Access list
 
 [screenshot remove]
 
 ::: info
-The access removal is effective few minutes after the change on the console. 
+The access removal is effective a few minutes after the change on the console. 
 During this time, you can see that action is in progress with the status `Pending deletion`.
 :::
 
-## What happen when I change of System Integrator ?
+## What happens when I change of system integrator?
 
-On a project, when you change of integrator their are a transition phase where both integrator need 
-to have access to the Enterprise Repository.
+On a project, when you change of system integrator their is a transition phase where both system integrators need to have access to the Enterprise Repository.
 
-You can see the current System Integrator on your project. 
+You can see the current system integrator on your project. 
 
-* First from the menu, go to `Console / Project` and select your project.
-* Open the `Enterprise Repository / Properties` subtab.
+1. First from the menu, go to `Console / Project` and select your project.
+2. Open the `Enterprise Repository / Properties` subtab.
 
 [Screenshot project actor]
 
-After the integrator change, only the current System Integrator can add accesses to the Enterprise Repository.
-The access for the previous System Integrator are preserved after the change of System Integrator. 
+After the integrator change, only the current system integrator can add accesses to the Enterprise Repository.
+The accesses for the previous system integrator are preserved.. 
 
 ::: tips
-Once the transition phase done, ask your Customer Sucess Manager to remove the access to the previous System Integrator.
+Once the transition phase is done, ask your Akeneo customer success manager to remove the access to the previous system integrator.
 :::
