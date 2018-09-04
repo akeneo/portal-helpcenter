@@ -14,6 +14,6 @@ The access to the extensions is shared with the [enterprise repository accesses]
 
 1. First from the menu, go to `Console / Project` and select your project.
 2. Go to `Extensions` tab, and you will see the list of all the extensions of your project.
-3. For each extension, the documentation link give the technical documentation to install the extension on your project. 
+3. For each extension, the documentation link provides the technical documentation to install the extension on your project.
 
 [screenshot]

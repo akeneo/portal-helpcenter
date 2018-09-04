@@ -4,9 +4,9 @@ title: Give access to all your developers to the Enterprise Repository
 popular: false
 ---
 
-# Give automatically access to the archive to all the public keys of your console users
+# Give automatic access to the archive to all the public keys of your console users
 
-As project manager or supervisor, you can automatize the access to all your console users with a public key on their profile.
+As project manager or supervisor, you can automate the access to all your console users with a public key on their profile.
 
 1. First from the menu, go to `Console / Project` and select your project.
 2. On `SSH Key Access` sub-tab
