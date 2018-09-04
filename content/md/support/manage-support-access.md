@@ -10,13 +10,13 @@ related: connect-to-your-portal
 
 From the **projects console**, you can manage who is able to **open** requests on the Help Desk.
 
-The Help Desk is handle in another tool **Jira Service Desk**, that is managed from the projects console.
+The Help Desk is handled using another tool **Jira Service Desk**, that is managed from the projects console.
 
 Support access is given **per project**.
 
 Support access is made for each user by creating a separate account (**the authentification is not shared with the Portal**).
 
-The project manager from customer and system Integrator can both add and remove access to a project support for the contacts of their company.
+The project manager from the customer and system Integrator can both add and remove access to project support for the contacts of their company.
 
 # Access the support in the projects console
 
