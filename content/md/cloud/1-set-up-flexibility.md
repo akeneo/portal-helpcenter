@@ -15,10 +15,10 @@ Following the purchase of a flexibility instance, an email is sent to the **setu
 You can set up the instance from the link given in the mail or by accessing the instance configuration page on the **projects console**.
 
 ::: info
-The setup should be done for each of your **production** or **development** instance
+The setup should be done for each of your **production** or **development** instances.
 :::
 
-1. First, from the menu, go to `Console / Project` and select your project.
+1. First, from the menu, go to `Projects console / Projects` and select your project.
 2. Go to the Cloud instance tab, and open the instance with the status `Waiting for setup`, by clicking on the line of the instance.
 3. Then fill the form with the missing prerequisites in order to create the Cloud server. 
 4. Choose a `Domain prefix`, which is going to be your URL instance (ex: https://yourdomain.cloud.akeneo.com). An instant check is done to see if the name is available.
@@ -35,13 +35,13 @@ Those data are **not modifiable** once submitted.
 
 Once the request is submitted, it takes **some time to process**. During this time, you will see your instance status in `Pending creation`.
 
-Once the instance is created, the **setup administrator** will receive the **credentials by email** to connect to the instance, and the instance status will change to `Activated`.
+Once the instance is created, the **setup administrator** will receive the **instructions by email** to connect to the instance, and the instance status will change to `Activated`.
 
 # Access your Flexibility instance properties
 
 Once the instance is set up, you can access the instance properties.
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the cloud instance tab, and open the instance by clicking on the line of the instance.
 1. On `Properties` sub-tab, you can see the information filled on the setup and the name of the **setup administrator** who received the credentials.
 
