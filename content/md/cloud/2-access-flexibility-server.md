@@ -21,7 +21,7 @@ See how to provide access and manage users and keys [here](get-akeneo-pim-enterp
 
 Once the contacts are created and their keys imported, the project manager can add them to the project.
 
-1. First from the menu, go to `Console / Project` and select your project
+1. First from the menu, go to `Projects console / Projects` and select your project
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance
 1. Open the `Server SSH Key Access` sub-tab
 1. Click `Add contact key`
@@ -42,7 +42,7 @@ The SSH key access is **not immediate**. Initially, the status will be `Pending 
 
 ## Add an IP Range allowed to access your Flexibility instance
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
 1. Open the `Server IP Range Access` sub-tab
 1. Click `Add IP Range`
@@ -59,7 +59,7 @@ The SSH key access is **not immediate**. Initially, the status will be `Pending 
 
 ## Removing an SSH key from the access
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
 1. Open the `Server SSH Key Access` sub-tab
 1. Click on the `Trash bin` to remove the access
@@ -72,7 +72,7 @@ The SSH key removal is **not immediate**. Initially, the status will be `Pending
 
 ## Removing an IP Range from the access
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
 1. Open the `Server IP Range Access` sub-tab
 1. Click on the `Trash bin` to remove the access
