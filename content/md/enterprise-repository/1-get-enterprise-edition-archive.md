@@ -12,7 +12,7 @@ This document provides **step by step** instructions to obtain an **archive** of
 
 ## The projects console
 
-The **project console** is the place in your [Portal](connect-to-your-portal.html) where you can manage the access to your project like the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and access support. 
+The **project console** is the place in your [Portal](connect-to-your-portal.html) where you can manage the access to your project like the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
 
 ## Add developers to the projects console
 
@@ -29,9 +29,9 @@ On a project, both the customer and system integrator that are identified with t
 
 ## Access to the project on the projects console
 
-If you have no access and if you are not a **supervisor** or **project manager**, you should contact that person to be listed under `Enterprise Repository / SSH Key Access` subtab. You can check who is the project manager on the `properties` tab of the Project and you can check who the Supervisor is in your company by going in `My Company / General Information` and under the section `Supervisors` you will see them listed.
+If you have not access to the project and if you are neither a **supervisor** nor **project manager**, you should request to the **Project Manager** to get you listed under `Enterprise Repository / SSH Key Access` subtab. You can check who is the project manager on the `properties` tab of the Project, you can also check who is the Supervisor within your company by going on `My Company / General Information` and looking on the `Supervisors` section.
 
-* To access the Console, from the Portal, go to `Console / Projects`
+* To access the Console, from the Portal, go to `Projects console / Projects`
 * Choose the corresponding project
 
 [screenshot projects list]
@@ -42,7 +42,7 @@ When you start a project, you need to get the bootstrap archive from the Enterpr
 You will need to install Akeneo PIM from this archive which can only be done by users whose ssh keys have been added to the enterprise repository.
 The access to the Enterprise Repository is handled by **composer** and **git**.
 
-## As a developer, import my public key
+## Import my public key
 
 Each user wanting to get the bootstrap archive has to share their SSH public key with Akeneo first.
 
@@ -61,7 +61,7 @@ As **project manager** or **supervisor**, you can allow **console users** to acc
 Each developer who accesses the enterprise repository needs to have their ssh key authorized.
 Each SSH Key needs to be linked to a console user.
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. On the left menu, go to `Projects console / Projects` and select your project.
 2. Go to `Enterprise Repository` tab, and `SSH Key Access` sub-tab.
 
 [Screenshot SSH Key Access]
@@ -75,7 +75,7 @@ Only **active** users created under your company, with a **console user** profil
 
 Then you have two possibilities: select an existing public key of a user, or add a new public key to the user 
 
-* First case, select an existing public key on the list
+* First case, select an existing public key under **Existing Public keys** list
 
 [screenshot of the selection of an existing public key]
 
@@ -84,7 +84,7 @@ Then you have two possibilities: select an existing public key of a user, or add
 [screenshot of the import of a new public key for a user]
 
 5. After the form has been filled, click `Add contact key`
-6. If it's the first time the **console User** has access to the project, a **mail is sent** to inform them of the access granted.
+6. Each time a **console user** joins a new project, a **email is sent** to inform them of the access granted.
 
 ::: info
 The authorization is effective soon after the change on the projects console.
@@ -95,14 +95,14 @@ During this time, you can see that the action is in progress with the status `Pe
 
 Once the users have access to the Enterprise Repository, they will be able to request an archive.
 
-1. First from the menu, go to `Console / Project` and select your project.
+1. On the left menu, go to `Projects console / Projects` and select your project.
 2. Open the `Enterprise Repository / Properties` sub-tab.
-3. Look for the `Version` button on the right side of the screen.
-4. Click on it, you’ll be prompted to select one PIM EE version.
+3. Look for the `Get archive by email` button on the right side of the screen.
+4. Click on it, you will be prompted to select one PIM EE version.
 
 [screenshot of the selection of a version]
 
-Once this is done, you should see a completeness message. The bootstrap archive will be **send to your email** in the following 5 minutes. Sometimes it could take a bit more, but always check your Spam folder before requesting the bootstrap again.
+Once this is done, a completeness message will be displayed. The bootstrap archive will be **send to your email** in the following 5 minutes. Sometimes it could take a bit more, but always check your Spam folder before requesting the bootstrap again.
 
 ::: warning
 We strongly recommend that you choose **the latest LTS version**.
