@@ -1,5 +1,5 @@
-# Akeneo Onboarder Help center
-This repository holds the sources for the Onboarder help center, made by hand with love.
+# Akeneo Portal Help center
+This repository holds the sources for the Customer and Partner Portal help center, made by hand with love.
 
 ## Install/preview the help center
 
