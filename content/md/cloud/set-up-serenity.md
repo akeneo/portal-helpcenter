@@ -17,6 +17,8 @@ You can set up the instance from the link given in the mail or by accessing the 
 1. Go to the Cloud instance tab, and open the instance with the status is `Waiting for setup` by clicking on the line of the instance.
 1. Then fill the form with the missing prerequisites in order to create the Cloud server. 
 
+![Serenity instance list](../img/serenity_list_waiting_setup.jpg)
+
 ::: info
 The setup should be done for each of your **production** or **development** instances
 :::
@@ -31,7 +33,7 @@ The setup should be done for each of your **production** or **development** inst
 Those data are not modifiable once submitted.
 :::
 
-[screenshot form]
+![Serenity setup form](../img/setup_flexibility.jpg)
 
 Once the request is submitted, it takes **some time to process**. During this time, you will see your instance status in `Pending creation`.
 
@@ -45,10 +47,10 @@ Once the instance is set up, you can access its properties.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
 1. On Properties subtab, you can see the information filled from the setup, and the name of the **setup administrator** who received the credentials by email.
 
-[screenshot properties]
+![Serenity instance properties](../img/serenity_activated.jpg)
 
 ## Get the log of the activities on the Serenity instance
 
 On the serenity Instance, on the `Activity Log` sub-tab, you can see when the activation was done.
 
-[screenshot of the activity serenity log subtab]
+![Serenity activity log](../img/serenity_activity_log.jpg)

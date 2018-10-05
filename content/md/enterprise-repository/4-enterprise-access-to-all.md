@@ -14,8 +14,12 @@ As project manager or supervisor, you can automate the access to all your consol
 4. Switch on Access to all your company contacts
 5. Click `Save` button
 
-[screenshot]
+![Choose policy](../img/repository_access_policy.jpg)
 
 ::: info
 If you disable the automatic access to the repository, current access is not changed and you need to remove the access key you want manually.
 :::
+
+If the access is given automatically, a message is displayed at the top of the list.
+
+![Info policy message](../img/policy_repository_displayed.jpg)

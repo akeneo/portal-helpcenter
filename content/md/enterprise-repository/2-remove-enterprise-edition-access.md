@@ -16,7 +16,7 @@ As a project manager, you can delete the contact key access for any user of your
 2. Go to `Enterprise Repository` tab, and `SSH Key Access` subtab.
 3. Click on the trash icon in Contact Key Access list
 
-[screenshot remove]
+![Remove a key from the access](../img/remove_key_access.jpg)
 
 ::: info
 The access removal takes a couple of minutes.
@@ -31,7 +31,7 @@ You can see the current system integrator on your project.
 1. First from the menu, go to `Projects console / Projects` and select your project.
 2. Open the `Enterprise Repository / Properties` sub-tab.
 
-[Screenshot project actor]
+![Project actor](../img/project_overview_actors.jpg)
 
 Once the System Integrator is changed by Akeneo, only the current System Integrator manages the accesses to the Enterprise Repository.
 Previous System Integrator access is preserved.

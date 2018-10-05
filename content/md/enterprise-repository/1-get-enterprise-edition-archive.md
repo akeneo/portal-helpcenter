@@ -34,7 +34,7 @@ If you have not access to the project and if you are neither a **supervisor** no
 * To access the Console, from the Portal, go to `Projects console / Projects`
 * Choose the corresponding project
 
-[screenshot projects list]
+![Projects list](../img/project_list.jpg)
 
 # Give the access to the Enterprise Repository
 
@@ -53,7 +53,7 @@ Each user wanting to get the bootstrap archive has to share their SSH public key
 5. Give the key a `name`, an `email` and the associated public key file content (usually located at `~/.ssh/id_rsa.pub`)
 6. Click `save`
 
-[screenshot import public key as console user]
+![Import public key as console user](../img/user_add_key_profile.jpg)
 
 ## Add permissions to install the project with the public keys
 
@@ -64,10 +64,12 @@ Each SSH Key needs to be linked to a console user.
 1. On the left menu, go to `Projects console / Projects` and select your project.
 2. Go to `Enterprise Repository` tab, and `SSH Key Access` sub-tab.
 
-[Screenshot SSH Key Access]
+[SSH Key Access list](../img/list_ssh_key_access.jpg)
 
 3. Click `Add contact key`
 4. Select a contact 
+
+![Select a contact](../img/add_contact_to_ssh_key.jpg)
 
 ::: info
 Only **active** users created under your company, with a **console user** profile are going to be listed.
@@ -75,13 +77,15 @@ Only **active** users created under your company, with a **console user** profil
 
 Then you have two possibilities: select an existing public key of a user, or add a new public key to the user 
 
-* First case, select an existing public key under **Existing Public keys** list
+![Public key choice](../img/choose_key_method.jpg)
 
-[screenshot of the selection of an existing public key]
+* First case, select an existing public key under added by your contact: click on `Select existing Public Key`
+
+![Selection of an existing public key](../img/select_exiting_key.jpg)
 
 * Second case, click on `Import a new Public Key` and fill the public key details.
 
-[screenshot of the import of a new public key for a user]
+![Import of a new public key for a user](../img/import_new_key.jpg)
 
 5. After the form has been filled, click `Add contact key`
 6. Each time a **console user** joins a new project, a **email is sent** to inform them of the access granted.
@@ -100,7 +104,7 @@ Once the users have access to the Enterprise Repository, they will be able to re
 3. Look for the `Get archive by email` button on the right side of the screen.
 4. Click on it, you will be prompted to select one PIM EE version.
 
-[screenshot of the selection of a version]
+![Selection of a version](../img/get_archive_by_mail_choice.jpg)
 
 Once this is done, a completeness message will be displayed. The bootstrap archive will be **send to your email** in the following 5 minutes. Sometimes it could take a bit more, but always check your Spam folder before requesting the bootstrap again.
 
@@ -114,4 +118,4 @@ Then you can install the project by following the [installation guide](https://d
 
 On the Enterprise Repository, on the `Activity Log` sub-tab, you can see the history of all the actions done: archive access granted, archive download, ssh key access changes...
 
-[Screenshot of an activity log]
+![Enteprise repository activity log](../img/activity_log.jpg)
