@@ -14,6 +14,8 @@ Following the purchase of a flexibility instance, an email is sent to the **setu
 
 You can set up the instance from the link given in the mail or by accessing the instance configuration page on the **projects console**.
 
+![Flexibility list](../img/serenity_list_waiting_setup.jpg)
+
 ::: info
 The setup should be done for each of your **production** or **development** instances.
 :::
@@ -21,7 +23,7 @@ The setup should be done for each of your **production** or **development** inst
 1. First, from the menu, go to `Projects console / Projects` and select your project.
 2. Go to the Cloud instance tab, and open the instance with the status `Waiting for setup`, by clicking on the line of the instance.
 3. Then fill the form with the missing prerequisites in order to create the Cloud server. 
-4. Choose a `Domain prefix`, which is going to be your URL instance (ex: https://yourdomain.cloud.akeneo.com). An instant check is done to see if the name is available.
+4. Choose a `Domain prefix`, which is going to be at the beginning of your URL instance (ex: https://yourdomainprefix.cloud.akeneo.com). An instant check is done to see if the name is available.
 5. Select an `Installation locale`, your cloud instance language
 6. Select an `Installation location` for your cloud instance hosting location that is closest to you to reduce latency access.
 7.  Select a `Target number of products` for your catalog.
@@ -31,7 +33,7 @@ The setup should be done for each of your **production** or **development** inst
 Those data are **not modifiable** once submitted.
 :::
 
-[screenshot form]
+![Setup flexibility form](../img/setup_flexibility.jpg)
 
 Once the request is submitted, it takes **some time to process**. During this time, you will see your instance status in `Pending creation`.
 
@@ -45,10 +47,10 @@ Once the instance is set up, you can access the instance properties.
 1. Go to the cloud instance tab, and open the instance by clicking on the line of the instance.
 1. On `Properties` sub-tab, you can see the information filled on the setup and the name of the **setup administrator** who received the credentials.
 
-[screenshot properties]
+![Flexibily Instance properties](../img/flexibility_activated.jpg)
 
 ## Get the log of the activities on the Flexibility instance
 
 On the Flexibility instance, on the `Activity Log` sub-tab, you can see when the activation was done, and when accesses have been granted and removed.
 
-[screenshot of the activity serenity log subtab]
+![Activity serenity log subtab](../img/serenity_activity_log.jpg)
