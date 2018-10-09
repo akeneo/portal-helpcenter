@@ -62,7 +62,8 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                         themes: personaThemes,
                         title: data.title,
                         description: data.description,
-                        img: data.img
+                        img: data.img,
+                        contextPath: './'
                     }, {
                         partialsDirectory: ['./src/partials']
                     }))

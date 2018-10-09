@@ -230,6 +230,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                             titleWithBold: titleWithBold,
                             eeOnly: eeOnly,
                             relatedArticles: relatedArticles,
+                            contextPath: '../',
                             mainContent: fs.readFileSync('tmp/' + path.basename(file.path).replace(/\.md/, '.html'))
                         }, {
                         partialsDirectory: ['./src/partials']
