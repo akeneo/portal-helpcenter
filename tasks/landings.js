@@ -37,7 +37,11 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
     return gulp.src('src/indexes/*.handlebars')
             .pipe(flatmap(function(stream, file){
                 return gulp.src(file.path)
-                        .pipe(gulpHandlebars({popularArticles: popularArticles}, {
+                        .pipe(gulpHandlebars(
+                            {
+                                popularArticles: popularArticles,
+                                contextPath: './'
+                            }, {
                             partialsDirectory: ['./src/partials']
                         }))
                         .pipe(rename(path.basename(file.path).replace(/\.handlebars$/, '.html')))
