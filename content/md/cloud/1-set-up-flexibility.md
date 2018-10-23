@@ -17,7 +17,7 @@ You can set up the instance from the link given in the mail or by accessing the 
 ![Flexibility list](../img/serenity_list_waiting_setup.jpg)
 
 ::: info
-The setup should be done for each of your **production** or **development** instances.
+The setup should be done for each of your **production** or **sandbox** instances.
 :::
 
 1. First, from the menu, go to `Projects console / Projects` and select your project.
