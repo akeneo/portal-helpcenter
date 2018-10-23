@@ -20,7 +20,7 @@ You can set up the instance from the link given in the mail or by accessing the 
 ![Serenity instance list](../img/serenity_list_waiting_setup.jpg)
 
 ::: info
-The setup should be done for each of your **production** or **development** instances
+The setup should be done for each of your **production** or **sandbox** instances
 :::
 
 1. Choose a `Domain prefix`, which is going to be your URL Instance (ex: https://yourdomain.cloud.akeneo.com). An instant check is done to see if the name is available.
