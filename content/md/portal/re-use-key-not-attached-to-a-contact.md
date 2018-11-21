@@ -7,14 +7,14 @@ related: get-akeneo-pim-enterprise-archive, access-akeneo-flexibility
 
 # How re-use an ssh key that was not attached to a Contact?
 
-On the Portal, you can link to a user an ssh key that was previously imported alone.
-As an ssh key can be imported only one time on the Portal, with those steps, you will re-use it for other access.
+On the Portal, you can link a user to an ssh key that was previously imported. 
+Since an ssh key can only be imported one time on the Portal, the steps below will show you how to re-use it for access by others.
 
 ## Ensure the contact can access the Projects Console
 
-1. Create the contact if not exists, in `My Company, Add contact`.
-2. Give the user `console users` group. Note that those contacts will only have access to this project on the Projects Console.
-3. Activate it.
+1. Create the contact if, they do not exist, in `My Company, Add contact`.
+2. Add the new user to the `Console Users` group.  Note that those contacts will only have access to this project on the Projects Console.
+3. Activate the user.
 
 ## Use the key again to give a new ssh access
 
@@ -33,4 +33,4 @@ You can also attach a key directly in your user account, in `Manage public keys 
 Now, on your Projects Console, you will see:
 
 * On the Cloud instance or Enterprise Repository, the contact key is added, now with the key attached to a contact.
-* On the other place the key is used, the existing access with the key is updated to be attached to a contact.
+* Wherever the key is used, the existing access with the key is updated to be attached to a contact.
