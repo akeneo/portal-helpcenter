@@ -10,13 +10,13 @@ related: connect-to-your-portal
 
 From the **projects console**, you can manage who has the rights to **open** new requests on the Helpdesk.
 
-The Help Desk is handled using another tool called **JIRA Service Desk**, managed from the projects console.
+The Helpdesk is handled using another tool called **JIRA Service Desk**, managed from the projects console.
 
 Helpdesk access is given **per project**.
 
 Helpdesk access is made for each user by creating a separate account (**the authentification is not shared with the Portal**).
 
-The project manager from the customer and system Integrator can both add and remove access to project support for the contacts of their company.
+**The project manager from the customer and system Integrator can both add and remove access to project support** for the contacts of their company.  
 
 # Access the support in the projects console
 
@@ -34,17 +34,17 @@ Note that only the last issues are displayed on the projects console.
 
 # Add an access
 
-Go to the `User Access` tab to see the list of contacts with support access.
+Go to the `User Access` tab to see the list of contacts having a support access.
 
 1. Click on the `Add contact` button
-1. Select a contact. The list contains the active contacts from your company with the profile `Console User`.
+1. Select a contact. The list contains the active contacts from your company having the profile `Console User`.
 1. Click on `Add Contact access` button to validate the creation.
 
 ::: info
-Please wait a few moments for the change to be effective. The status will change from `Pending activation` to  `Activated` once done.
+Please wait a few moments for the change to be effective. The status will change from `Pending activation` to `Activated` once done.
 :::
 
-Then the contact will **receive a mail** in order to **activate** his account on the **Help Desk** if he does not have one yet.
+Then the contact will **receive a mail** in order to **activate his helpdesk account** if he does not have one yet.
 
 ![Add contact form](../img/helpdesk_add_access.jpg)
 
