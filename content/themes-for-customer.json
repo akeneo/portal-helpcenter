@@ -18,6 +18,11 @@
             "img": "illus-concepts.svg",
             "description": "I want to set up my serenity instance."
         },
+        "manage-onboarder-instance":{
+            "title": "Set up your Onboarder cloud instance",
+            "img": "illus-concepts.svg",
+            "description": "I want to set up my onboarder instance."
+        },
         "support-access":{
             "title": "Get Helpdesk access",
             "img": "illus-permissions.svg",
