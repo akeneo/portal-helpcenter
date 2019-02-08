@@ -8,9 +8,9 @@ related: console-activity-history
 
 # Set up your Onboarder instance
 
-The Akeneo onboarder instance creation are managed on the **projects console** of your [Portal](connect-to-your-portal.html). 
+The Akeneo onboarder instance creation is managed on the **projects console** of your [Portal](connect-to-your-portal.html). 
 
-Following the purchase of a onboarder instance, an email is sent to the **onboarder administrator** inviting them to complete the setup form to create the instance.
+Following the purchase of an onboarder instance, an email is sent to the **onboarder administrator** inviting them to complete the setup form to create the instance.
 
 You can set up the instance from the link given in the mail or by accessing the instance configuration page on the **projects console**.
 
@@ -57,9 +57,9 @@ Once the instance is created, the **onboarder administrator** will receive the *
 
 Once the instance is set up, you can access the instance properties.
 
-1. First from the menu, go to `Projects console / Projects` and select your project.
-1. Go to the onboarder instance tab, and open the instance by clicking on the line of the instance.
-1. On `Properties` sub-tab, you can see the information filled on the setup and the name of the **Onboarder administrator** who received the credentials.
+1. First, from the menu, go to `Projects console / Projects` and select your project.
+2. Go to the onboarder instance tab, and open the instance by clicking on the line of the instance.
+3. On `Properties` sub-tab, you can see the information filled on the setup and the name of the **Onboarder administrator** who received the credentials.
 
 ![Onboarder Instance properties](../img/onboarder_activated.jpg)
 
