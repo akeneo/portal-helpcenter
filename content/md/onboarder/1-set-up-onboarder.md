@@ -22,7 +22,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 
 1. First, from the menu, go to `Projects console / Projects` and select your project.
 2. Go to the Onboarder instance tab, and open the instance with the status `Waiting for setup`, by clicking on the line of the instance.
-3. Then fill the form with the missing prerequisites in order to create the Onboarder instance.
+3. Then fill in the form with the missing prerequisites in order to create the Onboarder instance.
 
 ## Link your Onboarder to an existing PIM Cloud instance
 
@@ -30,7 +30,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 2. Choose a `Domain prefix`, which is going to define of your URL instance (e.g: https://retailer-yourdomainprefix.cloud.akeneo.com). By default, the domain prefix of your linked PIM instance is used in the generated URL. An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
 4. The `Installation location` is chosen with your linked PIM instance.
-5. Once the information is inputted, click `Request an Instance`.
+5. Once the form is filled in, click `Request an Instance`.
 
 ![Setup flexibility_pim_linked form](../img/onboarder_instance_setup_pim_linked.jpg)
 
@@ -40,7 +40,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 2. Choose a `Domain prefix`, which is going to be at the beginning of your URL instance (e.g: https://retailer-yourdomainprefix.cloud.akeneo.com). An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
 4. Select an `Installation location` for your Onboarder instance hosting location that is closest to you to reduce latency access.
-5. Once the information is inputted, click `Request an Instance`.
+5. Once the form is filled in, click `Request an Instance`.
 
 
 ![Setup onboarder_on_premise form](../img/onboarder_instance_setup_on_premise.jpg)
