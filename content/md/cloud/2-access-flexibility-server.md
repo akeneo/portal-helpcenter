@@ -8,15 +8,15 @@ related: re-use-key-not-attached-to-a-contact, console-activity-history
 
 # Give access to the Flexibility cloud server
 
-This document explains the **steps** in order to connect to your cloud Flexibility server.
+This document explains the **steps** needed to connect to your cloud Flexibility server.
 
-To connect you need to have your **ssh key** allowed. The connection is restricted from allowed **IP range**.
+To connect you need to have your **ssh key** allowed. The connection has also an **IP-range** restriction. Thus you need to allow both SSH key and IP addresses to access your Cloud environments.
 
-The Project manager from the customer and system integrator can both add and remove access to a cloud instance for the contacts of their company.
+Only the Project manager from the customer and the system integrator can both add or remove SSH accesses or whitelist IP Addresses for a cloud instance for the contacts of their company. 
  
 ## Add your ssh key to access to your Flexibility instance
 
-Each user wanting to get the bootstrap archive has to share their SSH public key with Akeneo first. 
+Each user that needs to get the bootstrap archive has to share his/her SSH public key with Akeneo first. 
 See how to provide access and manage users and keys [here](get-akeneo-pim-enterprise-archive.html).
 
 Once the contacts are created and their keys imported, the project manager can add them to the project.
@@ -34,7 +34,7 @@ Once the contacts are created and their keys imported, the project manager can a
 
 ![Import new key](../img/add_new_key_flexibility.jpg)
 
-* After the information has been inputted, click `Add contact key` 
+* After the information has been added, click `Add contact key` 
 
 ::: info
 The SSH key access is **not immediate**. Initially, the status will be `Pending creation` and then change to `Activated` once the access is given.
@@ -52,12 +52,12 @@ The SSH key access is **not immediate**. Initially, the status will be `Pending 
 ![Import IP range](../img/add_ip_range_flexibility.jpg)
 
 ::: info
-The SSH key access is **not immediate**. Initially, the status will be `Pending creation` and then change to `Activated` once the access is given.
+IP addresses are **not immediately** whitelisted. Initially, the status will be `Pending creation` and then will change to `Activated` once the access is given.
 :::
 
 # Remove access to the flexibility Cloud server
 
-## Removing an SSH key from the access
+## Removing a SSH key from the instance
 
 1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
@@ -70,7 +70,7 @@ The SSH key access is **not immediate**. Initially, the status will be `Pending 
 The SSH key removal is **not immediate**. Initially, the status will be `Pending deletion` and then will disappear from the list once deleted.
 :::
 
-## Removing an IP Range from the access
+## Removing an IP Range from the instance
 
 1. First from the menu, go to `Projects console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the line of the instance.
