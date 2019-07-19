@@ -3,7 +3,7 @@ id: get-akeneo-pim-enterprise-archive
 themes: get-source-code
 title: "Get PIM Enterprise Edition (EE) **archive**"
 popular: true
-related: remove-enterprise-edition-access, re-use-key-not-attached-to-a-contact, enterprise-access-to-all
+related: remove-enterprise-edition-access, re-use-key-not-attached-to-a-contact, enterprise-access-to-all, manage-project-managers
 ---
 
 This document provides **step by step** instructions to obtain an **archive** of the PIM Enterprise Edition.
@@ -16,7 +16,7 @@ The **project console** is the place in your [Portal](connect-to-your-portal.htm
 
 ## Add developers to the projects console
 
-**Supervisor** or **project manager** are the users who can give the authorization to work on Akeneo PIM project source code.
+**Supervisor** or **[project manager](project-managers.html)** are the users who can give the authorization to work on Akeneo PIM project source code.
 
 The users that are allowed to access the **project console** are named the **console users**.
 
