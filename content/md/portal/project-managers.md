@@ -1,5 +1,5 @@
 ---
-id: project-managers
+id: manage-project-managers
 title: "How to manage **Project managers**" 
 popular: true
 related: get-akeneo-pim-enterprise-archive, remove-enterprise-edition-access
@@ -8,6 +8,7 @@ related: get-akeneo-pim-enterprise-archive, remove-enterprise-edition-access
 # What is a Project Manager?
 
 Project Manager is a role that allows you to give access to the archive, manage clouds instance or get access to the support on a Project.
+There are 3 kinds of Project Manager, depending of your company role on the project:
 
 * As **Client Project Manager**, I can view and manage (add/remove) all the accesses on my project.
 * As **Main System Integrator Project Manager**, I can view accesses from my company and from the Client company, and manage accesses only from my company.
