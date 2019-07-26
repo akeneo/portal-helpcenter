@@ -16,7 +16,7 @@ The **project console** is the place in your [Portal](connect-to-your-portal.htm
 
 ## Add developers to the projects console
 
-**Supervisor** or **[project manager](project-managers.html)** are the users who can give the authorization to work on Akeneo PIM project source code.
+**Supervisors** or **[project managers](manage-project-managers.html)** are the ones who can allow the developers to work on the Akeneo PIM project source code.
 
 The users that are allowed to access the **project console** are named the **console users**.
 
