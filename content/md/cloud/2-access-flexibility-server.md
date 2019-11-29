@@ -3,7 +3,7 @@ id: access-akeneo-flexibility
 themes: manage-flexibility-instance
 title: "**Manage access** to your Cloud Flexibility instance"
 popular: true
-related: re-use-key-not-attached-to-a-contact, console-activity-history
+related: console-activity-history
 ---
 
 # Give access to the Flexibility cloud server
