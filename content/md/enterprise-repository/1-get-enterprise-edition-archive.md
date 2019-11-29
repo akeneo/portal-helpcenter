@@ -3,7 +3,7 @@ id: get-akeneo-pim-enterprise-archive
 themes: get-source-code
 title: "Get PIM Enterprise Edition (EE) **archive**"
 popular: true
-related: remove-enterprise-edition-access, re-use-key-not-attached-to-a-contact, enterprise-access-to-all, manage-project-managers
+related: remove-enterprise-edition-access, enterprise-access-to-all, manage-project-managers
 ---
 
 This document provides **step by step** instructions to obtain an **archive** of the PIM Enterprise Edition.
