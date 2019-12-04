@@ -1,7 +1,7 @@
 ---
 id: franklin-insights
 themes: franklin-insights
-title: "**Connect** to Franklin Insights"
+title: "Get the Franklin Insights **activation code**"
 popular: true
 related: connect-to-your-portal
 ---
