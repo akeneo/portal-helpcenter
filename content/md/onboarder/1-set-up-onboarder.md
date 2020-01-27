@@ -27,23 +27,23 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 ## Link your Onboarder to an existing PIM Cloud instance
 
 1. Select a `Linked PIM instance` in the list.
-2. Choose a `Domain prefix`, which is going to define your URL instance (e.g: https://retailer-yourdomainprefix.cloud.akeneo.com). By default, the domain prefix of your linked PIM instance is used in the generated URL. An instant check is done to see if the name is available.
+2. Choose a `Domain prefix`, which is going to define your Onboarder instances URL (e.g: https://&lt;supplier-code&gt;.your_domain_prefix.cloud.akeneo.com). By default, the domain prefix of your linked PIM instance is used in the generated URL. An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
 4. The `Installation location` is chosen with your linked PIM instance.
 5. Once the form is filled in, click `Request an Instance`.
 
-![Setup flexibility_pim_linked form](../img/onboarder_instance_setup_pim_linked.jpg)
+![Setup flexibility_pim_linked form](../img/onboarder_setup.jpg)
 
 ## Link your Onboarder to an on-premise instance
 
 1. Input your `On-premise URL`. This is the root URL of your Akeneo PIM if it is self-hosted. Please note that this URL must be publicly accessible on the Internet.
-2. Choose a `Domain prefix`, which is going to be at the beginning of your URL instance (e.g: https://retailer-yourdomainprefix.cloud.akeneo.com). An instant check is done to see if the name is available.
+2. Choose a `Domain prefix`, which is going to define your Onboarder instances URL (e.g: https://&lt;supplier-code&gt;.your_domain_prefix.cloud.akeneo.com). An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
 4. Select an `Installation location` for your Onboarder instance. Choose the closest location from you to reduce latency access.
 5. Once the form is filled in, click `Request an Instance`.
 
 
-![Setup onboarder_on_premise form](../img/onboarder_instance_setup_on_premise.jpg)
+![Setup onboarder_on_premise form](../img/onboarder_setup_on_premise.jpg)
 
 ::: warning
 Those data are **not modifiable** once submitted.
@@ -60,8 +60,9 @@ Once the instance is set up, you can access the instance properties.
 1. First, from the menu, go to `Projects console / Projects` and select your project.
 2. Go to the Onboarder instance tab, and open the instance by clicking on the corresponding line.
 3. On `Properties` sub-tab, you can see the information filled during the setup and the name of the **Onboarder administrator** who received the credentials.
+If your Onboarder is linked to a Flexibility instance you can see the **Parameters package** and download a **serviceAccount.json** to [synchronize your PIM with your Onboarder](https://docs.akeneo.com/latest/onboarder/prerequisites/index.html#pim).
 
-![Onboarder Instance properties](../img/onboarder_activated.jpg)
+![Onboarder Instance properties](../img/onboarder_properties.jpg)
 
 ::: info
 To update your **number of suppliers quota**, ask your Customer Success Manager, and you will be notified when change is effective.
