@@ -27,7 +27,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 ## Link your Onboarder to an existing PIM Cloud instance
 
 1. Select a `Linked PIM instance` in the list.
-2. Choose a `Domain prefix`, which is going to define your Onboarder instances URL (e.g: https://&lt;supplier-code&gt;.your_domain_prefix.cloud.akeneo.com). By default, the domain prefix of your linked PIM instance is used in the generated URL. An instant check is done to see if the name is available.
+2. Choose a `Domain prefix`, which is going to define your Onboarder instances URL (e.g: https://&lt;supplier-code&gt;.your_domain_prefix.cloud.akeneo.com). An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
 4. The `Installation location` is chosen with your linked PIM instance.
 5. Once the form is filled in, click `Request an Instance`.
