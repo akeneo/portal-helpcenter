@@ -14,7 +14,7 @@ Following the purchase of a flexibility instance, an email is sent to the **setu
 
 You can set up the instance from the link given in the mail or by accessing the instance configuration page on the **projects console**.
 
-![Flexibility list](../img/serenity_list_waiting_setup.jpg)
+![Flexibility list](../img/flexibility_list_waiting_setup.png)
 
 ::: info
 The setup should be done for each of your **production** or **sandbox** instances.
@@ -33,7 +33,7 @@ The setup should be done for each of your **production** or **sandbox** instance
 Those data are **not modifiable** once submitted.
 :::
 
-![Setup flexibility form](../img/setup_flexibility.jpg)
+![Setup flexibility form](../img/setup_flexibility.png)
 
 Once the request is submitted, it takes **some time to process**. During this time, you will see your instance status in `Pending creation`.
 
@@ -47,10 +47,10 @@ Once the instance is set up, you can access the instance properties.
 1. Go to the cloud instance tab, and open the instance by clicking on the line of the instance.
 1. On `Properties` sub-tab, you can see the information filled on the setup and the name of the **setup administrator** who received the credentials.
 
-![Flexibily Instance properties](../img/flexibility_activated.jpg)
+![Flexibily Instance properties](../img/flexibility_activated.png)
 
 ## Get the log of the activities on the Flexibility instance
 
 On the Flexibility instance, on the `Activity Log` sub-tab, you can see when the activation was done, and when accesses have been granted and removed.
 
-![Activity serenity log subtab](../img/serenity_activity_log.jpg)
+![Activity serenity log subtab](../img/serenity_activity_log.png)

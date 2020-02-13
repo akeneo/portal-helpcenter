@@ -16,4 +16,4 @@ The access to the extensions is shared with the [enterprise repository accesses]
 2. Go to `Extensions` tab, and you will see the list of all the extensions of your project.
 3. For each extension, the documentation link provides the technical documentation to install the extension on your project.
 
-![screenshot extension list](../img/list_extensions.jpg)
+![screenshot extension list](../img/list_extensions.png)

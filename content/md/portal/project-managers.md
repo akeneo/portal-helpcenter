@@ -26,7 +26,7 @@ Only Client or Main System Integrator **supervisors** are able to add or remove 
 2. Choose the corresponding project
 3. Go to the `Project Stakeholders` tab
 
-![Project Stakeholders tab](../img/stakeholders_tab.jpg)
+![Project Stakeholders tab](../img/stakeholders_tab.png)
 
 You can see the Project Manager list with your permissions.
 
@@ -38,7 +38,7 @@ You can see the Project Manager list with your permissions.
 4. Select a contact from your company
 5. Click on `Add project manager`
 
-![Select a contact](../img/add_project_manager.jpg)
+![Select a contact](../img/add_project_manager.png)
 
 ::: info
 Only **active** users created under for company are going to be listed.
@@ -54,7 +54,7 @@ Each time you add a new project manager, an email is sent to inform them of the 
 3. Click on the `trash icon` in the project manager list
 4. Confirm the deletion by clicking on the `Delete` button
 
-![Select a contact](../img/remove_project_manager.jpg)
+![Select a contact](../img/remove_project_manager.png)
 
 Each time you remove a project manager, an internal notification is added to the activity log.
 
@@ -68,6 +68,6 @@ As a project needs at least one project manager both from the client and the Mai
 4. Select a contact from the replaced project manager company
 5. Click on `Replace project manager`
 
-![Select a contact](../img/replace_project_manager.jpg)
+![Select a contact](../img/replace_project_manager.png)
 
 Each time you replace a project manager, internal notifications are added to the activity log.

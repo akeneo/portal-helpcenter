@@ -14,7 +14,7 @@ As a [project manager](manage-project-managers.html) or supervisor, you can auto
 4. Switch on Access to all your company contacts
 5. Click `Save` button
 
-![Choose policy](../img/repository_access_policy.jpg)
+![Choose policy](../img/repository_access_policy.png)
 
 ::: info
 If you disable the automatic access to the repository, current access is not changed and you need to remove the access key you want manually.
@@ -22,4 +22,4 @@ If you disable the automatic access to the repository, current access is not cha
 
 If the access is given automatically, a message is displayed at the top of the list.
 
-![Info policy message](../img/policy_repository_displayed.jpg)
+![Info policy message](../img/policy_repository_displayed.png)
