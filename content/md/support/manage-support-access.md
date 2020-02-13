@@ -69,4 +69,4 @@ Please wait a few moments for the change to be effective. The status will be fir
 1. Open the `Helpdesk` tab
 1. On the `Activity Log` sub-tab, you can see the history of all the access changes.
 
-![Activity log subtab](../img/helpdesk_activity_log.png)
+![Activity log subtab](../img/helpdesk_activity_log.jpg)

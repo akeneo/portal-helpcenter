@@ -26,4 +26,4 @@ From the **projects console**, you can access your Franklin Insights account inf
 1. Open the `Franklin Insights` tab
 1. In the `Activity Log` sub-tab, you can see the history of all the past actions in your account.
 
-![Activity log subtab](../img/franklin_insights_activity_log.png)
+![Activity log subtab](../img/franklin_insights_activity_log.jpg)
