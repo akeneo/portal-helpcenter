@@ -25,7 +25,7 @@ The setup should be done for each of your **production** or **sandbox** instance
 3. Then fill the form with the missing prerequisites in order to create the Cloud server. 
 4. Choose a `Domain prefix`, which is going to appear at the beginning of your URL instance (ex: https://yourdomainprefix.cloud.akeneo.com). An instant check runs to see if the name is available.
 5. Select an `Installation locale`, which is your cloud instance language
-6. Select an `Installation location` for your cloud instance hosting location. It should the closest to you to reduce latency access.
+6. Select an `Installation location` for your cloud instance hosting location. It should be the closest to you to reduce latency access.
 7. Select a `Target number of products` for your catalog.
 8. Once the information is filled in, click on `Request an Instance`
 

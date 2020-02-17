@@ -39,7 +39,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 1. Input your `On-premise URL`. This is the root URL of your Akeneo PIM if it is self-hosted. Please note that this URL must be publicly accessible on the Internet.
 2. Choose a `Domain prefix`, which is going to be at the beginning of your URL instance (e.g: https://retailer-yourdomainprefix.cloud.akeneo.com). An instant check is done to see if the name is available.
 3. Select an `Installation locale` for your Onboarder.
-4. Select an `Installation location` for your Onboarder instance. Choose the closest location from you to reduce latency access.
+4. Select an `Installation location` for your Onboarder instance. It should be the closest to you to reduce latency access.
 5. Once the form is filled in, click on `Request an Instance`.
 
 
