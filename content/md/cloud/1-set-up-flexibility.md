@@ -53,4 +53,4 @@ Once the instance is set up, you can access the instance properties.
 
 On the Flexibility instance, on the `Activity Log` sub-tab, you can see when the activation was done, and when accesses have been granted and removed.
 
-![Activity serenity log subtab](../img/serenity_activity_log.png)
+![Activity serenity log subtab](../img/flexibility_activity_log.png)
