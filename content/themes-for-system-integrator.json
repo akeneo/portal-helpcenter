@@ -27,6 +27,11 @@
             "title": "Get Helpdesk access",
             "img": "illus-permissions.svg",
             "description": "Manage the access to the Akeneo Helpdesk for your team."
+        },
+        "franklin-insights":{
+            "title": "Get the Franklin Insights activation code",
+            "img": "illus-franklin-robot.svg",
+            "description": "I want to get the Franklin Insights activation code"
         }
     }
 }
