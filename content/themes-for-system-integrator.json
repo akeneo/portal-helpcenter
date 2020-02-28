@@ -1,6 +1,6 @@
 {
     "title":"I am a PIM System Integrator",
-    "description":"I am a PIM system integrator or partner who manage Akeneo projects. For my customers, I want to get access to the Enterprise licence, manage the cloud instance or get access to the support.",
+    "description":"I am a PIM system integrator or partner who manages Akeneo projects. For my customers, I want to get access to the Enterprise licence, manage the cloud instance or get access to the support.",
     "img":"illus-setting-up.svg",
     "themes":{
         "get-source-code":{
@@ -16,12 +16,12 @@
         "manage-serenity-instance":{
             "title": "Set up a Serenity cloud instance",
             "img": "illus-concepts.svg",
-            "description": "I want to set up a serenity instance."
+            "description": "I want to set up a Serenity instance."
         },
         "manage-onboarder-instance":{
             "title": "Set up an Onboarder cloud instance",
             "img": "retailer-shop-corrected.svg",
-            "description": "I want to set up an onboarder instance."
+            "description": "I want to set up an Onboarder instance."
         },
         "support-access":{
             "title": "Get Helpdesk access",
