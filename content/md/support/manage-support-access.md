@@ -26,7 +26,7 @@ Access to the Helpdesk is granted per user by creating a separate account (**the
 1. To open the full issues list, click on `Open requests list in Jira`. 
 1. To open a new issue, click on `Open new request` once the access was given.
 
-![Support request tab](../img/helpdesk_overview.jpg)
+![Support request tab](../img/helpdesk_overview.png)
 
 ::: info
 Note that only the latest issues are displayed on the project console.
@@ -46,7 +46,7 @@ Please wait a moment for the change to be effective. The status will change from
 
 Then the contact will **receive a mail** in order to **activate their helpdesk account** if they don't have one yet.
 
-![Add contact form](../img/helpdesk_add_access.jpg)
+![Add contact form](../img/helpdesk_add_access.png)
 
 ::: warning
 From the Project console, it is not possible to know if the user has activated the access when they received their new user account email.
@@ -61,7 +61,7 @@ From the Project console, it is not possible to know if the user has activated t
 Please wait a moment for the change to be effective. The status will first be in `deletion pending`. Once done, the user will be removed from the list. 
 :::
 
-![Support contact list deletion](../img/helpdesk_remove_access.jpg)
+![Support contact list deletion](../img/helpdesk_remove_access.png)
 
 # Get the log of the access changes
 
@@ -69,4 +69,4 @@ Please wait a moment for the change to be effective. The status will first be in
 1. Open the `Helpdesk` tab
 1. On the `Activity Log` sub-tab, you can see the history of all the access changes.
 
-![Activity log subtab](../img/helpdesk_activity_log.jpg)
+![Activity log subtab](../img/helpdesk_activity_log.png)

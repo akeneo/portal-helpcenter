@@ -18,7 +18,7 @@ From the **projects console**, you can access your Franklin Insights account inf
 2. Open the `Franklin Insights` tab
 3. In the `Overview` sub-tab, you can see your account information: **credits details**, **administrator's information**, **account activation**, and **activation code** to [use Franklin Insights](https://help.akeneo.com/pim/v3/articles/franklin-insights-getting-started.html)
 
-![Franklin Insights overview tab](../img/franklin_insights_overview.jpg)
+![Franklin Insights overview tab](../img/franklin_insights_overview.png)
 
 # Get the log of your Franklin Insights account
 

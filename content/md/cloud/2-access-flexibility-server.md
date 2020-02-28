@@ -28,11 +28,11 @@ Once the contacts are created and their keys imported, the project manager can a
 1. Select a contact. The list contains the active contacts from your company with the profile `Console User`
 1. Select an existing public key on the list
 
-![Selection existing key](../img/add_key_access_flexibility.jpg)
+![Selection existing key](../img/add_key_access_flexibility.png)
 
 * Or import a new public key for this contact, by clicking on `Import a new Public Key`
 
-![Import new key](../img/add_new_key_flexibility.jpg)
+![Import new key](../img/add_new_key_flexibility.png)
 
 * After the information has been added, click `Add contact key` 
 
@@ -49,7 +49,7 @@ The SSH key access is **not instantaneous**. Initially, the status will be `Crea
 1. Input your IP Range
 1. Click on `Add IP Range` to submit your IP Range for creation
 
-![Import IP range](../img/add_ip_range_flexibility.jpg)
+![Import IP range](../img/add_ip_range_flexibility.png)
 
 ::: info
 IP addresses are **not immediately** whitelisted. Initially, the status will be `Creation pending` and then will change to `Activated` once the access is given.
@@ -64,7 +64,7 @@ IP addresses are **not immediately** whitelisted. Initially, the status will be 
 1. Open the `Server SSH Key Access` sub-tab
 1. Click on the `Trash bin` to remove the access
 
-![Remove ssh key access](../img/remove_cloud_key_access.jpg)
+![Remove ssh key access](../img/remove_cloud_key_access.png)
 
 ::: info
 The SSH key removal is **not instantaneous**. Initially, the status will be `Deletion pending` and then will disappear from the list once deleted.
@@ -77,7 +77,7 @@ The SSH key removal is **not instantaneous**. Initially, the status will be `Del
 1. Open the `Server IP Range Access` sub-tab
 1. Click on the `Trash bin` to remove the access
 
-![Remove IP range access](../img/remove_ip_range.jpg)
+![Remove IP range access](../img/remove_ip_range.png)
 
 ::: info
 The IP Range removal is **not instantaneous**. Initially, the status will be `Deletion pending` and then will disappear from the list once deleted.

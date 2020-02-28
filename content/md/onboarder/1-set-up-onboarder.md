@@ -18,7 +18,7 @@ You can set up the instance from the link in the email or by accessing the insta
 The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequisites/index.html#prerequisites) have to be filled in before the setup form except if you are linking the Onboarder to a Serenity instance.
 :::
 
-![Onboarder list](../img/onboarder_list_waiting_setup.jpg)
+![Onboarder list](../img/onboarder_list_waiting_setup.png)
 
 1. First, from the menu, go to `Project console / Projects` and select your project.
 2. Go to the Onboarder instance tab, and open the instance with the status `Waiting for setup`, by clicking on the instance line.
@@ -32,7 +32,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 4. The `Installation location` is chosen with your linked PIM instance.
 5. Once the form is filled in, click on `Request an Instance`.
 
-![Setup flexibility_pim_linked form](../img/onboarder_setup.jpg)
+![Setup flexibility_pim_linked form](../img/onboarder_setup.png)
 
 ## Link your Onboarder to an on-premise instance
 
@@ -43,7 +43,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 5. Once the form is filled in, click on `Request an Instance`.
 
 
-![Setup onboarder_on_premise form](../img/onboarder_setup_on_premise.jpg)
+![Setup onboarder_on_premise form](../img/onboarder_setup_on_premise.png)
 
 ::: warning
 Those data **cannot be modified** once submitted.
@@ -61,7 +61,7 @@ Once the instance is set up, you can access the instance properties.
 2. Go to the Onboarder instance tab, and open the instance by clicking on the corresponding line.
 3. On the `Properties` sub-tab, you can see the information filled during the setup and the name of the **Onboarder administrator** who received the credentials.
 
-![Onboarder Instance properties](../img/onboarder_properties.jpg)
+![Onboarder Instance properties](../img/onboarder_properties.png)
 
 ::: info
 To update your **number of suppliers quota**, ask your Customer Success Manager, and you will be notified when the change is effective.
@@ -71,4 +71,4 @@ To update your **number of suppliers quota**, ask your Customer Success Manager,
 
 In the Onboarder instance, on the `Activity Log` sub-tab, you can see when the activation was done, and when the supplier quota was updated.
 
-![Activity onboarder log subtab](../img/onboarder_activity_log.jpg)
+![Activity onboarder log subtab](../img/onboarder_activity_log.png)
