@@ -1,6 +1,6 @@
 {
     "title":"I am a PIM customer",
-    "description":"I am a customer of an Akeneo PIM project, and I want to get access to my archive, manage my clouds instance or get access to the support.",
+    "description":"I am a customer of an Akeneo PIM project, and I want to get access to my archive, manage my cloud instances or get access to the support.",
     "img":"illus-using.svg",
     "themes":{
         "get-source-code":{
