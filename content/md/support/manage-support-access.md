@@ -70,3 +70,9 @@ Please wait a moment for the change to be effective. The status will first be in
 1. On the `Activity Log` sub-tab, you can see the history of all the access changes.
 
 ![Activity log subtab](../img/helpdesk_activity_log.png)
+
+# Access JIRA SDS Helpdesk
+Once your access created in the Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
+You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.
+
+![Reset Jira SDS password](../img/jira_reset_password.gif)
