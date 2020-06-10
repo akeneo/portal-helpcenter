@@ -48,9 +48,14 @@ Then the contact will **receive a mail** in order to **activate their helpdesk a
 
 ![Add contact form](../img/helpdesk_add_access.png)
 
+Once your access created in the Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
+You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.
+
 ::: warning
-From the Project console, it is not possible to know if the user has activated the access when they received their new user account email.
+Access to the Helpdesk is granted using a separate account (the authentication is not shared with the Portal).
 :::
+
+![Reset Jira SDS password](../img/jira_reset_password.gif)
 
 # Remove an access
 
@@ -71,8 +76,3 @@ Please wait a moment for the change to be effective. The status will first be in
 
 ![Activity log subtab](../img/helpdesk_activity_log.png)
 
-# Access JIRA SDS Helpdesk
-Once your access created in the Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
-You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.
-
-![Reset Jira SDS password](../img/jira_reset_password.gif)
