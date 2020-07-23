@@ -39,12 +39,12 @@ Create a ./config.json file in the root of the repository:
       "staging": {
         "hostname": "help-staging",
         "username": "akeneo",
-        "destination": "/home/akeneo/portal"
+        "destination": "/var/www/html/portal"
       },
       "production": {
         "hostname": "help",
         "username": "akeneo",
-        "destination": "/home/akeneo/portal"
+        "destination": "/var/www/html/portal"
       }
     }  
 
