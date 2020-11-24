@@ -1,59 +1,50 @@
 # Akeneo Portal Help center
-This repository holds the sources for the Customer and Partner Portal help center, made by hand with love.
+This repository holds the sources for the Portal help center, made by hand with love.
 
 ## Install/preview the help center
 
-First, you will need [Node](https://nodejs.org/en/) as well as [Gulp-cli](https://github.com/gulpjs/gulp-cli).
+Install [Docker Engine](https://docs.docker.com/engine/installation/)
 
-Then you can run the following commands in your terminal where these sources are:
-```bash
-sudo npm install --global n
-sudo n 7.2.0
-npm install
-sudo npm install --global gulp-cli
-```
-
-### Run locally
-Once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
+### Build with docker
 
 ```bash
-npm install
+$ make build
+```
+This is only building the documentation. The documentation is not available with this command, as it does not launch the HTTP server.
 
-gulp serve
+### Build and launch HTTP server with docker
+
+```bash
+$ make watch
 ```
 
-The help center website is then available on `localhost:8000`.
+The help center website is then available on `http://localhost:8000/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
-## Deploy the helpcenter
+### Manual deployment
 
-Update your installation
+Deploy to staging
 
-    git checkout master; git pull
+```bash
+$ HOSTNAME=help-staging.akeneo.com PORT=2253 make deploy
+```
 
-    npm install 
-  
-Create a ./config.json file in the root of the repository:
+Deploy to production
 
-    {
-      "staging": {
-        "hostname": "help-staging",
-        "username": "akeneo",
-        "destination": "/var/www/html/portal"
-      },
-      "production": {
-        "hostname": "help",
-        "username": "akeneo",
-        "destination": "/var/www/html/portal"
-      }
-    }  
+```bash
+$ HOSTNAME=help.akeneo.com PORT=2249 make deploy
+```
 
-Generate the help center then deploy it:
+### Automated deployment with Circle CI
 
-    gulp deploy --env=staging
+Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. You have nothing to do.
 
-If you want to deploy on production, use
+Then, you can check that your changes have been correctly applied. 
 
-    gulp deploy --env=production
+If everything went as expected, you can deploy on the production server by following the next steps:
 
-For more info, see [How to deploy the documentation](https://akeneo.atlassian.net/wiki/spaces/SDS/pages/57770048/How+to+deploy+the+documentation#Howtodeploythedocumentation-Deploythehelpcenter).
+[look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/portal-helpcenter?branch=master) and click on _deployment_.
+
+Then click on _wait_for_user_approval_.
+
+Last, click on _Approve_.
