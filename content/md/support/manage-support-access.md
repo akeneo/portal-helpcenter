@@ -36,17 +36,50 @@ Note that only the latest issues are displayed on the project console.
 
 Go to the `User Access` tab to see the list of contacts having a support access.
 
+**Add access to an existing contact of your company:**
+
 1. Click on the `Add contact` button
+1. Select `Select an existing contact`
 1. Select a contact. The list contains the active contacts from your company who already have a `Console User` profile.
 1. Click on the `Add Contact access` button to validate the creation.
+
+![Add existing company contact form](../img/helpdesk_add_access.png)
+
+**Add access to an existing contact from another company:**
+
+1. Click on the `Add contact` button
+1. Select `Select other contact`
+1. Enter the email of the contact, `This contact exists in the portal.` must appear.
+1. Click on the `Add Contact access` button to validate the creation.
+
+![Add existing contact form](../img/helpdesk_add_existing_contact.png)
+
+**Add access to a new contact:**
+
+::: info
+You have the possibility to create a new contact from this form. It is possible to attach this contact directly to your company or to declare it as external.
+The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
+:::
+
+1. Click on the `Add contact` button
+1. Select `Select other contact`
+1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
+1. Choose if the contact is from the company or an external one.
+1. Fill in the contact information.
+1. In the case of a company contact, you can give him different groups.
+1. Click on the `Add Contact access` button to validate the creation.
+
+![Add contact form](../img/helpdesk_add_access.gif)
+
+::: info
+The new contact will receive an email to update his password and an email indicating that he has access to the support.
+:::
 
 ::: info
 Please wait a moment for the change to be effective. The status will change from `activation pending` to `Activated` once done.
 :::
 
 Then the contact will **receive a mail** in order to **activate their helpdesk account** if they don't have one yet.
-
-![Add contact form](../img/helpdesk_add_access.png)
 
 Once your access created in the Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
 You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.

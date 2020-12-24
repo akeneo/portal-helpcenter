@@ -72,7 +72,7 @@ Each SSH Key needs to be linked to a console user.
 ![Select a contact](../img/add_contact_to_ssh_key.png)
 
 ::: info
-Only **active** users created under your company, with a **console user** profile are going to be listed.
+Only users created under your company are going to be listed.
 :::
 
 Then you have two possibilities: select a user's existing public key, or add a new public key to the user 
@@ -94,6 +94,38 @@ Then you have two possibilities: select a user's existing public key, or add a n
 The authorization is effective soon after the change on the project console.
 During this time, you can see that the action is in progress with the status `Activation pending`.
 :::
+
+### As a project manager or a supervisor, you can directly create a contact for your company or as an external contact and give him access to the enterprise repository.
+
+::: info
+You have the possibility to create a new contact from this form. It is possible to attach this contact directly to your company or to declare it as external.
+The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
+:::
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
+1. Choose if the contact is from the company or an external one.
+1. Fill in the contact information.
+1. In the case of a company contact, you can give him different groups.
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to validate the creation.
+
+![Create a new contact and add it an enterprise repository access](../img/add_access_er.gif)
+
+::: info
+The new contact will receive an email to update his password and an email indicating that he has access to the enterprise repository.
+:::
+
+### As a project manager or a supervisor, You can add an access to your enterprise repository to a contact from another company.
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact, `This contact exists in the portal.` must appear.
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to validate the creation.
+
+![Add existing contact form](../img/add_existing_contact_er.png)
 
 # Request an archive on the Enterprise Repository
 
