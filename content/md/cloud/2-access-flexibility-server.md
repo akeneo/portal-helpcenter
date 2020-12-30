@@ -72,7 +72,7 @@ The external contact will be visible from the contacts of your company and will 
 ![Create a new contact and add it a flexibility instance](../img/add_access_flex.gif)
 
 ::: info
-The new contact will receive an email to update his password, and an email indicating that he has access to the flexibility instance.
+The new contact will receive an email to define his password, and an email indicating that he has access to the flexibility instance.
 :::
 
 ## Add an IP Range allowed to access your Flexibility instance

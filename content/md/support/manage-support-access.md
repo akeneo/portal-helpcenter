@@ -72,7 +72,7 @@ The external contact will be visible from the contacts of your company and will 
 ![Add contact form](../img/helpdesk_add_access.gif)
 
 ::: info
-The new contact will receive an email to update his password and an email indicating that he has access to the support.
+The new contact will receive an email to define his password.
 :::
 
 ::: info

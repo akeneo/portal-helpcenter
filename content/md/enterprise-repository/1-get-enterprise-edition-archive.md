@@ -21,7 +21,7 @@ The **project console** is the place in your [Portal](connect-to-your-portal.htm
 The users that are allowed to access the **project console** are named the **console users**.
 
 As a supervisor, you are able to create **new users** on the portal and add them to the **console user group** so that they can access the project console.
-You can do it by going to `My Company / Contacts / Add Contact`, fill in the form, select the `Console user` group and activate it by clicking on the red `X` in the user list.
+You can do it by going to `My Company / Contacts / Add Contact`, choose if the contact is from your company or an external contact, fill in the form, select the `Console user` group and create it by clicking on the `Create contact` button.
 
 ::: info
 On a project, both the customer and the system integrator that are identified with the project are **autonomous** to give access to get the Enterprise Edition.
@@ -114,7 +114,7 @@ The external contact will be visible from the contacts of your company and will 
 ![Create a new contact and add it an enterprise repository access](../img/add_access_er.gif)
 
 ::: info
-The new contact will receive an email to update his password and an email indicating that he has access to the enterprise repository.
+The new contact will receive an email to define his password and an email indicating that he has access to the enterprise repository.
 :::
 
 ### As a project manager or a supervisor, You can add an access to your enterprise repository to a contact from another company.
