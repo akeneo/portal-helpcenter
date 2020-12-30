@@ -40,7 +40,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 
 1. Click on the `Add contact` button
 1. Select `Select an existing contact`
-1. Select a contact. The list contains the active contacts from your company who already have a `Console User` profile.
+1. Select a contact. The list contains the contacts from your company who already have a `Console User` profile.
 1. Click on the `Add Contact access` button to validate the creation.
 
 ![Add existing company contact form](../img/helpdesk_add_access.png)

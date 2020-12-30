@@ -26,7 +26,7 @@ Once the contacts are created and their keys imported, the project manager can a
 1. Open the `Server SSH Key Access` sub-tab
 1. Click on `Add contact key`
 1. Select `Select an existing contact`
-1. Select a contact. The list contains the active contacts from your company with the profile `Console User`
+1. Select a contact. The list contains the contacts from your company with the profile `Console User`
 1. Select an existing public key on the list
 
 ![Selection existing contact](../img/add_existing_contact_flex.png)
