@@ -59,6 +59,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 ::: info
 You have the possibility to create a new contact from this form. It is possible to attach this contact directly to your company or to declare it as external.
 The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
+The contact created at the same time as the access will automatically have the console users group.
 :::
 
 1. Click on the `Add contact` button
