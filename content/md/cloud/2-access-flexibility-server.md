@@ -56,7 +56,6 @@ The SSH key access is **not instantaneous**. Initially, the status will be `Crea
 ## Add access to your flexibility instance to a new contact
 
 Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
-
 The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
 
 1. Click on the `Add contact key` button

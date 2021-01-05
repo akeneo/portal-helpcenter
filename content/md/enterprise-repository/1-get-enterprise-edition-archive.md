@@ -97,10 +97,8 @@ During this time, you can see that the action is in progress with the status `Ac
 
 ## Add access to your enterprise repository to a new contact
 
-::: info
 Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
 The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
-:::
 
 1. Click on the `Add contact key` button
 1. Select `Select other contact`
