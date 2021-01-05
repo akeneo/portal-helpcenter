@@ -8,7 +8,7 @@ related: access-akeneo-flexibility, get-akeneo-pim-enterprise-archive
 
 # Set up your flexibility instance
 
-The Akeneo cloud instance creation and access are managed on the **projects console** of your [Portal](https://portal.akeneo.com). 
+The Akeneo cloud instance creation and access are managed on the **projects console** of the [Akeneo Portal](https://portal.akeneo.com). 
 
 Following the purchase of a flexibility instance, an email is sent to the **setup administrator** inviting them to fill in the setup form to create the instance.
 

@@ -22,7 +22,7 @@ Only Client or Main System Integrator **supervisors** are able to add or remove 
 
 ## View the Project Managers list
 
-1. To access the Console, from the Portal, go to `Project console / Projects`
+1. To access the Console, from the Akeneo Portal, go to `Project console / Projects`
 2. Choose the corresponding project
 3. Go to the `Project Stakeholders` tab
 

@@ -12,7 +12,7 @@ This document provides **step by step** instructions to obtain an **archive** of
 
 ## The project console
 
-The **project console** is the place in your [Portal](https://portal.akeneo.com) where you can manage the accesses to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
+The **project console** is the place in the [Akeneo Portal](https://portal.akeneo.com) where you can manage the accesses to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
 
 ## Add developers to the project console
 
@@ -31,7 +31,7 @@ On a project, both the customer and the system integrator that are identified wi
 
 If you don't have access to the project and if you are neither a **supervisor** nor a **project manager**, you should ask the **Project Manager** to get you listed under the `Enterprise Repository / SSH Key Access` subtab. You can check who the project manager is in the `properties` tab of the Project, you can also check who the supervisor is within your company by going on `My Company / General Information` and looking in the `Supervisors` section.
 
-* To access the Console, from the Portal, go to `Project console / Projects`
+* To access the Console, from the Akeneo Portal, go to `Project console / Projects`
 * Choose the corresponding project
 
 ![Projects list](../img/project_list.png)
@@ -46,7 +46,7 @@ The access to the Enterprise Repository is handled by **composer** and **git**.
 
 Each user wanting to get the bootstrap archive has to share their SSH public key with Akeneo first.
 
-1. Login to your [Portal](https://portal.akeneo.com)
+1. Login to the [Akeneo Portal](https://portal.akeneo.com)
 2. Click on your Username in the top right corner.
 3. Select `Manage Public Keys`
 4. Click on `Add a new public key`

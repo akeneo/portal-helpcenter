@@ -13,7 +13,7 @@ The Helpdesk is handled from another tool called **JIRA Service Desk**, managed 
 
 Access to the Helpdesk is given **per project**.
 
-Access to the Helpdesk is granted per user by creating a separate account (**the authentication is not shared with the Portal**).
+Access to the Helpdesk is granted per user by creating a separate account (**the authentication is not shared with the Akeneo Portal**).
 
 **The project managers both from the customer and system Integrator can add and remove access to project support** for the contacts of their companies.  
 
@@ -72,11 +72,11 @@ Please wait a moment for the change to be effective. The status will change from
 
 Then the contact will **receive a mail** in order to **activate their helpdesk account** if they don't have one yet.
 
-Once your access created in the Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
+Once your access created in the Akeneo Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
 You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.
 
 ::: warning
-Access to the Helpdesk is granted using a separate account (the authentication is not shared with the Portal).
+Access to the Helpdesk is granted using a separate account (the authentication is not shared with the Akeneo Portal).
 :::
 
 ![Reset Jira SDS password](../img/jira_reset_password.gif)
