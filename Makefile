@@ -39,4 +39,4 @@ build: yarn-install ## Build the files of the Helpcenter
 
 .PHONY: deploy
 deploy: build ## Deploy to the target, require to set the environment variables HOSTNAME and PORT
-	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock ${DOCKER_IMAGE_TAG} rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/ akeneo@$${HOSTNAME}:/home/akeneo/portal
+	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock ${DOCKER_IMAGE_TAG} rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/ akeneo@$${HOSTNAME}:/var/www/html/portal
