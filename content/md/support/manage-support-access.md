@@ -68,9 +68,7 @@ The external contact will be visible from the contacts of your company and will 
 
 ![Add contact form](../img/helpdesk_add_access.gif)
 
-::: info
 Please wait a moment for the change to be effective. The status will change from `activation pending` to `Activated` once done.
-:::
 
 Then the contact will **receive a mail** in order to **activate their helpdesk account** if they don't have one yet.
 
