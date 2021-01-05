@@ -3,7 +3,6 @@ id: manage-support-access
 themes: support-access
 title: "**Manage access** to the Helpdesk"
 popular: true
-related: connect-to-your-portal
 ---
 
 # Overview
@@ -36,7 +35,7 @@ Note that only the latest issues are displayed on the project console.
 
 Go to the `User Access` tab to see the list of contacts having a support access.
 
-**Add access to an existing contact of your company:**
+## Add access to an existing contact of your company
 
 1. Click on the `Add contact` button
 1. Select `Select an existing contact`
@@ -45,7 +44,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 
 ![Add existing company contact form](../img/helpdesk_add_access.png)
 
-**Add access to an existing contact from another company:**
+## Add access to an existing contact from another company
 
 1. Click on the `Add contact` button
 1. Select `Select other contact`
@@ -54,12 +53,11 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 
 ![Add existing contact form](../img/helpdesk_add_existing_contact.png)
 
-**Add access to a new contact:**
+## Add access to a new contact
 
 ::: info
-You have the possibility to create a new contact from this form. It is possible to attach this contact directly to your company or to declare it as external.
+Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
 The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
-The contact created at the same time as the access will automatically have the console users group.
 :::
 
 1. Click on the `Add contact` button
@@ -71,10 +69,6 @@ The contact created at the same time as the access will automatically have the c
 1. Click on the `Add Contact access` button to validate the creation.
 
 ![Add contact form](../img/helpdesk_add_access.gif)
-
-::: info
-The new contact will receive an email to define his password.
-:::
 
 ::: info
 Please wait a moment for the change to be effective. The status will change from `activation pending` to `Activated` once done.
@@ -101,6 +95,14 @@ Please wait a moment for the change to be effective. The status will first be in
 :::
 
 ![Support contact list deletion](../img/helpdesk_remove_access.png)
+
+# Reset a user's password for support access
+
+![Support reset password access](../img/helpdesk_reset_password.gif)
+
+::: info
+The contact will receive an email to change his password on the helpdesk.
+:::
 
 # Get the log of the access changes
 

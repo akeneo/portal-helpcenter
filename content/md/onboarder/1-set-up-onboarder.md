@@ -8,7 +8,7 @@ related: console-activity-history
 
 # Set up your Onboarder instance
 
-The Akeneo Onboarder instance creation is managed from the **project console** of your [Portal](connect-to-your-portal.html). 
+The Akeneo Onboarder instance creation is managed from the **project console** of your [Portal](https://portal.akeneo.com). 
 
 Following the purchase of an Onboarder instance, an email is sent to the **Onboarder administrator** inviting them to fill in the setup form to create the instance.
 

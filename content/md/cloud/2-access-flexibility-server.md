@@ -43,7 +43,7 @@ Once the contacts are created and their keys imported, the project manager can a
 The SSH key access is **not instantaneous**. Initially, the status will be `Creation pending` and then will change to `Activated` once the access is given.
 :::
 
-### You can add access to your flexibility instance to a contact from another company.
+## Add access to your flexibility instance to an already existing contact from another company.
 
 1. Click on the `Add contact key` button
 1. Select `Select other contact`
@@ -53,13 +53,11 @@ The SSH key access is **not instantaneous**. Initially, the status will be `Crea
 
 ![Add existing contact from other company](../img/add_contact_other_company_flex.png)
 
-### You can directly create a contact for your company or as an external contact and give him access to the enterprise repository.
+## Add access to your flexibility instance to a new contact
 
-::: info
-You have the possibility to create a new contact from this form. It is possible to attach this contact directly to your company or to declare it as external.
+Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
+
 The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
-The contact created at the same time as the access will automatically have the console users group.
-:::
 
 1. Click on the `Add contact key` button
 1. Select `Select other contact`
