@@ -13,6 +13,10 @@ This document explains the **steps** to connect to your cloud Flexibility server
 To connect, you need to have your **ssh key** allowed. The connection also has an **IP-range** restriction. Thus you need to allow both SSH key and IP addresses to access your Cloud environments.
 
 The Project manager on the customer side and the system integrator are the only ones allowed to add or remove SSH accesses or whitelist IP addresses on a given cloud instance for the contacts from their company. 
+
+::: info
+Only RSA keys are allowed for now in the portal. We are working to add new encryptions in the future.
+:::
  
 ## Add your ssh key to access your Flexibility instance
 
