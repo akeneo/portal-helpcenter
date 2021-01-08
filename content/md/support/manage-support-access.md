@@ -40,7 +40,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 1. Click on the `Add contact` button
 1. Select `Select an existing contact`
 1. Select a contact. The list contains the contacts from your company who already have a `Console User` profile.
-1. Click on the `Add Contact access` button to validate the creation.
+1. Click on the `Add Contact access` button to approve the key.
 
 ![Add existing company contact form](../img/helpdesk_add_access.png)
 
@@ -49,22 +49,22 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 1. Click on the `Add contact` button
 1. Select `Select other contact`
 1. Enter the email of the contact, `This contact exists in the portal.` must appear.
-1. Click on the `Add Contact access` button to validate the creation.
+1. Click on the `Add Contact access` button to approve the key.
 
 ![Add existing contact form](../img/helpdesk_add_existing_contact.png)
 
 ## Add access to a new contact
 
 Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
-The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
+The external contact will be visible from the contacts of your company and will be removed from your company if they are no longer linked to your company. For example, if you delete their access.
 
 1. Click on the `Add contact` button
 1. Select `Select other contact`
 1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
 1. Choose if the contact is from the company or an external one.
 1. Fill in the contact information.
-1. In the case of a company contact, you can give him different groups.
-1. Click on the `Add Contact access` button to validate the creation.
+1. In the case of a company contact, you can assign them to different groups
+1. Click on the `Add Contact access` button to approve the key.
 
 ![Add contact form](../img/helpdesk_add_access.gif)
 
@@ -72,8 +72,7 @@ Please wait a moment for the change to be effective. The status will change from
 
 Then the contact will **receive a mail** in order to **activate their helpdesk account** if they don't have one yet.
 
-Once your access created in the Akeneo Portal, if you have access to the `JIRA SDS Helpdesk` for the first time, you received an email to reset your `JIRA password`.
-You need to follow the screencast instructions to login to the JIRA SDS Helpdesk.
+Once you have access from the Akeneo portal, you will be able to connect to the `JIRA SDS helpdesk` for the first time, you will receive an email to reset your `JIRA password`.
 
 ::: warning
 Access to the Helpdesk is granted using a separate account (the authentication is not shared with the Akeneo Portal).
@@ -97,7 +96,7 @@ Please wait a moment for the change to be effective. The status will first be in
 ![Support reset password access](../img/helpdesk_reset_password.gif)
 
 ::: info
-The contact will receive an email to change his password on the helpdesk.
+The contact will receive an email to change their password on the helpdesk.
 :::
 
 # Get the log of the access changes

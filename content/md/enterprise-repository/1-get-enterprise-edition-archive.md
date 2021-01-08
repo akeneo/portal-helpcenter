@@ -12,7 +12,7 @@ This document provides **step by step** instructions to obtain an **archive** of
 
 ## The project console
 
-The **project console** is the place in the [Akeneo Portal](https://portal.akeneo.com) where you can manage the accesses to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
+The **project console** is the place in the [Akeneo Portal](https://portal.akeneo.com) where you can manage access to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
 
 ## Add developers to the project console
 
@@ -98,21 +98,21 @@ During this time, you can see that the action is in progress with the status `Ac
 ## Add access to your enterprise repository to a new contact
 
 Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
-The external contact will be visible from the contacts of your company and will be removed from your company if it is no longer linked to your company. For example, if you delete its access.
+The external contact will be visible from the contacts of your company and will be removed from your company if they are no longer linked to your company. For example, if you delete their access.
 
 1. Click on the `Add contact key` button
 1. Select `Select other contact`
 1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
 1. Choose if the contact is from the company or an external one.
 1. Fill in the contact information.
-1. In the case of a company contact, you can give him different groups.
+1. In the case of a company contact, you can assign them to different groups
 1. Enter the name of the key and the public key.
-1. Click on the `Add contact key` button to validate the creation.
+1. Click on the `Add contact key` button to approve the key.
 
 ![Create a new contact and add it an enterprise repository access](../img/add_access_er.gif)
 
 ::: info
-The new contact will receive an email to define his password and an email indicating that he has access to the enterprise repository.
+The new contact will receive an email to define their password, an email indicating that they have access to the enterprise repository.
 :::
 
 ## Add access to your enterprise repository to an already existing contact from another company.
@@ -121,7 +121,7 @@ The new contact will receive an email to define his password and an email indica
 1. Select `Select other contact`
 1. Enter the email of the contact, `This contact exists in the portal.` must appear.
 1. Enter the name of the key and the public key.
-1. Click on the `Add contact key` button to validate the creation.
+1. Click on the `Add contact key` button to approve the key.
 
 ![Add existing contact form](../img/add_existing_contact_er.png)
 
