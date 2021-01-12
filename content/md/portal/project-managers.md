@@ -22,7 +22,7 @@ Only Client or Main System Integrator **supervisors** are able to add or remove 
 
 ## View the Project Managers list
 
-1. To access the Console, from the Portal, go to `Project console / Projects`
+1. To access the Console, from the Akeneo Portal, go to `Project console / Projects`
 2. Choose the corresponding project
 3. Go to the `Project Stakeholders` tab
 
@@ -41,7 +41,7 @@ You can see the Project Manager list with your permissions.
 ![Select a contact](../img/add_project_manager.png)
 
 ::: info
-Only **active** users created for your company are going to appear on the list.
+Only **active** users of your company and external contacts linked to your project are going to appear on the list.
 If your contact isn't in the list, you can follow the link to **create a new contact** for your company.
 :::
 
@@ -60,7 +60,7 @@ Each time you remove a project manager, an internal notification is added to the
 
 ## Replace a Project Manager
 
-As a project needs at least one project manager both from the client and the Main System Integrator company, according to your permission level, you can replace a Project manager by another active contact from the same company.
+As a project needs at least one project manager both from the client and the Main System Integrator company, according to your permission level, you can replace a Project manager by another contact from the same company.
 
 1. In the menu, go to `Projects console / Projects` and select your project.
 2. Go to the `Project Stakeholders` tab

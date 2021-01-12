@@ -12,7 +12,7 @@ This document provides **step by step** instructions to obtain an **archive** of
 
 ## The project console
 
-The **project console** is the place in your [Portal](connect-to-your-portal.html) where you can manage the accesses to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
+The **project console** is the place in the [Akeneo Portal](https://portal.akeneo.com) where you can manage access to your project such as the Enterprise Repository and get the bootstrap archive. It can also be used to configure your cloud instances and helpdesk access. 
 
 ## Add developers to the project console
 
@@ -21,7 +21,7 @@ The **project console** is the place in your [Portal](connect-to-your-portal.htm
 The users that are allowed to access the **project console** are named the **console users**.
 
 As a supervisor, you are able to create **new users** on the portal and add them to the **console user group** so that they can access the project console.
-You can do it by going to `My Company / Contacts / Add Contact`, fill in the form, select the `Console user` group and activate it by clicking on the red `X` in the user list.
+You can do it by going to `My Company / Contacts / Add Contact`, choose if the contact is from your company or an external contact, fill in the form, select the `Console user` group and create it by clicking on the `Create contact` button.
 
 ::: info
 On a project, both the customer and the system integrator that are identified with the project are **autonomous** to give access to get the Enterprise Edition.
@@ -31,7 +31,7 @@ On a project, both the customer and the system integrator that are identified wi
 
 If you don't have access to the project and if you are neither a **supervisor** nor a **project manager**, you should ask the **Project Manager** to get you listed under the `Enterprise Repository / SSH Key Access` subtab. You can check who the project manager is in the `properties` tab of the Project, you can also check who the supervisor is within your company by going on `My Company / General Information` and looking in the `Supervisors` section.
 
-* To access the Console, from the Portal, go to `Project console / Projects`
+* To access the Console, from the Akeneo Portal, go to `Project console / Projects`
 * Choose the corresponding project
 
 ![Projects list](../img/project_list.png)
@@ -46,7 +46,7 @@ The access to the Enterprise Repository is handled by **composer** and **git**.
 
 Each user wanting to get the bootstrap archive has to share their SSH public key with Akeneo first.
 
-1. Login to your [Portal](connect-to-your-portal.html)
+1. Login to the [Akeneo Portal](https://portal.akeneo.com)
 2. Click on your Username in the top right corner.
 3. Select `Manage Public Keys`
 4. Click on `Add a new public key`
@@ -64,7 +64,7 @@ Each SSH Key needs to be linked to a console user.
 1. On the left menu, go to `Project console / Projects` and select your project.
 2. Go to the `Enterprise Repository` tab, and `SSH Key Access` sub-tab.
 
-[SSH Key Access list](../img/list_ssh_key_access.png)
+![SSH Key Access list](../img/list_ssh_key.png)
 
 3. Click on `Add contact key`
 4. Select a contact 
@@ -72,7 +72,7 @@ Each SSH Key needs to be linked to a console user.
 ![Select a contact](../img/add_contact_to_ssh_key.png)
 
 ::: info
-Only **active** users created under your company, with a **console user** profile are going to be listed.
+Only **active** users created under your company are going to be listed.
 :::
 
 Then you have two possibilities: select a user's existing public key, or add a new public key to the user 
@@ -94,6 +94,36 @@ Then you have two possibilities: select a user's existing public key, or add a n
 The authorization is effective soon after the change on the project console.
 During this time, you can see that the action is in progress with the status `Activation pending`.
 :::
+
+## Add access to your enterprise repository to a new contact
+
+Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
+The external contact will be visible from the contacts of your company and will be removed from your company if they are no longer linked to your company. For example, if you delete their access.
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
+1. Choose if the contact is from the company or an external one.
+1. Fill in the contact information.
+1. In the case of a company contact, you can assign them to different groups
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to approve the key.
+
+![Create a new contact and add it an enterprise repository access](../img/add_access_er.gif)
+
+::: info
+The new contact will receive an email to define their password, an email indicating that they have access to the enterprise repository.
+:::
+
+## Add access to your enterprise repository to an already existing contact from another company.
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact, `This contact exists in the portal.` must appear.
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to approve the key.
+
+![Add existing contact form](../img/add_existing_contact_er.png)
 
 # Request an archive on the Enterprise Repository
 

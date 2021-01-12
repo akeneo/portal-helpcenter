@@ -25,8 +25,11 @@ Once the contacts are created and their keys imported, the project manager can a
 1. Go to the Cloud instance tab, and open the instance by clicking on the instance line
 1. Open the `Server SSH Key Access` sub-tab
 1. Click on `Add contact key`
-1. Select a contact. The list contains the active contacts from your company with the profile `Console User`
+1. Select `Select an existing contact`
+1. Select a contact. The list contains the contacts from your company with the profile `Console User`
 1. Select an existing public key on the list
+
+![Selection existing contact](../img/add_existing_contact_flex.png)
 
 ![Selection existing key](../img/add_key_access_flexibility.png)
 
@@ -38,6 +41,36 @@ Once the contacts are created and their keys imported, the project manager can a
 
 ::: info
 The SSH key access is **not instantaneous**. Initially, the status will be `Creation pending` and then will change to `Activated` once the access is given.
+:::
+
+## Add access to your flexibility instance to an already existing contact from another company.
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact, `This contact exists in the portal.` must appear.
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to approve the key.
+
+![Add existing contact from other company](../img/add_contact_other_company_flex.png)
+
+## Add access to your flexibility instance to a new contact
+
+Supervisors or Project Managers have the possibility to **create a new contact** from this form. It is possible to attach this contact directly to your company or to declare it as external.
+The external contact will be visible from the contacts of your company and will be removed from your company if they are no longer linked to your company. For example, if you delete their access.
+
+1. Click on the `Add contact key` button
+1. Select `Select other contact`
+1. Enter the email of the contact you want to create, `This contact doesn't exist in the portal, you can create it.` must appear.
+1. Choose if the contact is from the company or an external one.
+1. Fill in the contact information.
+1. In the case of a company contact, you can assign them to different groups
+1. Enter the name of the key and the public key.
+1. Click on the `Add contact key` button to approve the key.
+
+![Create a new contact and add it a flexibility instance](../img/add_access_flex.gif)
+
+::: info
+The new contact will receive an email to define their password, and an email indicating that they have access to the flexibility instance.
 :::
 
 ## Add an IP Range allowed to access your Flexibility instance
