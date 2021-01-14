@@ -46,6 +46,11 @@ The access to the Enterprise Repository is handled by **composer** and **git**.
 
 Each user wanting to get the bootstrap archive has to share their SSH public key with Akeneo first.
 
+::: info
+Only RSA keys are allowed for now in the portal. We are working to add new encryptions in the future.
+:::
+
+
 1. Login to your [Portal](connect-to-your-portal.html)
 2. Click on your Username in the top right corner.
 3. Select `Manage Public Keys`
