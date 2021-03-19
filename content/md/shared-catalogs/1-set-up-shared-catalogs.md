@@ -1,5 +1,5 @@
 ---
-id: set-up-akeneo-shared-catalogs
+id: set-up-shared-catalogs
 themes: manage-shared-catalogs-instance
 title: "**Set up** your Shared Catalogs instance"
 popular: true
