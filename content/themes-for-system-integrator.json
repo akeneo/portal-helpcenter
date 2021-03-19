@@ -24,7 +24,7 @@
             "description": "I want to set up an Onboarder instance."
         },
         "manage-shared-catalogs-instance":{
-            "title": "Set up your Shared Catalogs  instance",
+            "title": "Set up your Shared Catalogs instance",
             "img": "retailer-shop-corrected.svg",
             "description": "I want to set up my shared catalogs instance."
         },
