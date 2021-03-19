@@ -31,7 +31,7 @@ You can set up the instance from the link in the email or by accessing the insta
 ![Shared Catalogs setup form](../img/shared_catalogs_setup.gif)
 
 ::: warning
-If the linked PIM is a Flexibility instance it should be compatible only with 4.0 and above version.
+If the linked PIM is a Flexibility instance, the Shared catalogs are compatible only with PIM version 4.0 and above.
 :::
 
 Once the request is submitted, it takes **some time to process**. During this time, you will see your instance status is `Activation pending`.
