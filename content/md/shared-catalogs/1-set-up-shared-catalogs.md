@@ -25,8 +25,9 @@ You can set up the instance from the link in the email or by accessing the insta
 
 1. Select a `Linked PIM instance` in the list.
 2. Choose an `Instance name`, it will not be a domain name.
-3. Input your `PIM API connection credentials`, test the connection to validate.
-4. Once the form is filled in and connection successfully tested, click on `Request an instance`.
+3. The `Installation continent` is pre-filled with your linked PIM instance location.
+4. Input your `PIM API connection credentials`, test the connection to validate.
+5. Once the form is filled in and connection successfully tested, click on `Request an instance`.
 
 ![Shared Catalogs setup form](../img/shared_catalogs_setup.gif)
 
