@@ -25,13 +25,21 @@ docker-build: ## Build Nodejs runtime docker image
 yarn-install: docker-build ## Install JS dependencies without yarn.lock file
 	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn install --frozen-lockfile --check-files
 
+.PHONY: yarn-upgrade
+yarn-upgrade:
+	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn upgrade
+
+.PHONY: yarn-audit
+yarn-audit:
+	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn audit
+
 .PHONY: yarn-install-dev
 yarn-install-dev: docker-build ## Install JS dependencies with yarn.lock file and update it if needed
 	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn install
 
 .PHONY: watch
 watch: yarn-install-dev ## Run on http://localhost:8000 the Helpcenter, with auto refresh on file changes
-	$(DOCKER_RUN) --expose=8000 -p=8000:8000 -p=35729:35729 ${DOCKER_IMAGE_TAG} yarn gulp serve
+	$(DOCKER_RUN) --expose=8001 -p=8001:8000 -p=35729:35729 ${DOCKER_IMAGE_TAG} yarn gulp serve
 
 .PHONY: build
 build: yarn-install ## Build the files of the Helpcenter
