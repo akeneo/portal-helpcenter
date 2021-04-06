@@ -20,12 +20,12 @@
         },
         "manage-onboarder-instance":{
             "title": "Set up an Onboarder cloud instance",
-            "img": "retailer-shop-corrected.svg",
+            "img": "illus-onboarder.svg",
             "description": "I want to set up an Onboarder instance."
         },
         "manage-shared-catalogs-instance":{
             "title": "Set up a Shared Catalogs instance",
-            "img": "retailer-shop-corrected.svg",
+            "img": "illus-shared-catalogs.svg",
             "description": "I want to set up a Shared Catalogs instance."
         },
         "support-access":{
