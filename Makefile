@@ -25,6 +25,14 @@ docker-build: ## Build Nodejs runtime docker image
 yarn-install: docker-build ## Install JS dependencies without yarn.lock file
 	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn install --frozen-lockfile --check-files
 
+.PHONY: yarn-upgrade
+yarn-upgrade:
+	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn upgrade
+
+.PHONY: yarn-audit
+yarn-audit:
+	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn audit
+
 .PHONY: yarn-install-dev
 yarn-install-dev: docker-build ## Install JS dependencies with yarn.lock file and update it if needed
 	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn install
