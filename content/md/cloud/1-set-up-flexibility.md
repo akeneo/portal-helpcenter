@@ -24,7 +24,7 @@ The setup should be done for each of your **production** or **sandbox** instance
 2. Go to the Cloud instance tab, and open the instance with the status `Waiting for setup`, by clicking on the instance line.
 3. Then fill the form with the missing prerequisites in order to create the Cloud server. 
 4. Choose a `Domain prefix`, which is going to appear at the beginning of your URL instance (ex: https://yourdomainprefix.cloud.akeneo.com). An instant check runs to see if the name is available.
-5. Select a `PIM version` for your flexibility instance ([more information about our PIM versions](https://help.akeneo.com/pim/serenity/versions-in-detail.html))
+5. Select a `Setup PIM version` for your flexibility instance ([more information about our PIM versions](https://help.akeneo.com/pim/serenity/versions-in-detail.html))
 6. Select an `Installation locale`, which is your cloud instance language
 7. Select an `Installation location` for your cloud instance hosting location. It should be the closest to you to reduce latency access.
 8. Select a `Target number of products` for your catalog.
