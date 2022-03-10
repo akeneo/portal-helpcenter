@@ -28,6 +28,7 @@ The setup should be done for each of your **production** or **sandbox** instance
 1. Select an `Installation location`, for your cloud instance hosting location, it should be the closest to you to reduce latency access.
 1. Select a `Target number of products` of your catalog.
 1. Once the information is filled in, click `Request an Instance`
+1. On the confirmation modal, click `Confirm the request`
 
 ::: warning
 Those data are not modifiable once submitted.
