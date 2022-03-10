@@ -49,7 +49,7 @@ Each user wanting to get the bootstrap archive has to share their SSH public key
 1. Login to the [Akeneo Portal](https://portal.akeneo.com)
 2. Click on your Username in the top right corner.
 3. Select `Manage Public Keys`
-4. Click on `Add a new public key`
+4. Click on `Add public key`
 5. Give the key a `name`, an `email` and the associated public key file content (usually located at `~/.ssh/id_rsa.pub`)
 6. Click on `save`
 
@@ -131,7 +131,7 @@ Once the users have access to the Enterprise Repository, they will be able to re
 
 1. On the leftside menu, go to `Project console / Projects` and select your project.
 2. Open the `Enterprise Repository / Properties` sub-tab.
-3. Look for the `Get archive by email` button on the right side of the screen.
+3. Look for the `Email archive` button on the right side of the screen.
 4. Click on it, you will be invited to select one PIM EE version.
 
 ![Selection of a version](../img/get_archive_by_mail_choice.png)
