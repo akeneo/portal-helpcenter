@@ -28,6 +28,7 @@ You can set up the instance from the link in the email or by accessing the insta
 3. The `Installation continent` is pre-filled with your linked PIM instance location.
 4. Input your `PIM API connection credentials`, test the connection to validate.
 5. Once the form is filled in and connection successfully tested, click on `Request an instance`.
+6. On the confirmation modal, click `Confirm the request`
 
 ![Shared Catalogs setup form](../img/shared_catalogs_setup.gif)
 
