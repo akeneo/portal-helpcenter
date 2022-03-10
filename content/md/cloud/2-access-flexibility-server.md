@@ -95,7 +95,8 @@ IP addresses are **not immediately** whitelisted. Initially, the status will be 
 1. First from the menu, go to `Project console / Projects` and select your project.
 1. Go to the Cloud instance tab, and open the instance by clicking on the instance line.
 1. Open the `Server SSH Key Access` sub-tab
-1. Click on the `Trash bin` to remove the access
+1. Click on the `Trash bin` to open the confirmation modal
+1. Click on `Delete` on the confirmation modal to remove the access
 
 ![Remove ssh key access](../img/remove_cloud_key_access.png)
 
@@ -106,9 +107,10 @@ The SSH key removal is **not instantaneous**. Initially, the status will be `Del
 ## Removing an IP Range from the instance
 
 1. First from the menu, go to `Project console / Projects` and select your project.
-1. Go to the Cloud instance tab, and open the instance by clicking on the instance line.
-1. Open the `Server IP Range Access` sub-tab
-1. Click on the `Trash bin` to remove the access
+2. Go to the Cloud instance tab, and open the instance by clicking on the instance line.
+3. Open the `Server IP Range Access` sub-tab
+4. Click on the `Trash bin` to open the confirmation modal
+5. Click on `Delete` on the confirmation modal to remove the access
 
 ![Remove IP range access](../img/remove_ip_range.png)
 
