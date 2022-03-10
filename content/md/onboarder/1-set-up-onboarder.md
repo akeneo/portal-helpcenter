@@ -21,7 +21,7 @@ The [technical prerequisites](https://docs.akeneo.com/latest/onboarder/prerequis
 ![Onboarder list](../img/onboarder_list_waiting_setup.png)
 
 1. First, from the menu, go to `Project console / Projects` and select your project.
-2. Go to the Onboarder instance tab, and open the instance with the status `Waiting for setup`, by clicking on the instance line.
+2. Go to the Onboarder instance tab, and open the instance with the status `Waiting for activation setup`, by clicking on the instance line.
 3. Then fill in the form with the missing prerequisites in order to create the Onboarder instance.
 
 ## Link your Onboarder to an existing PIM Cloud instance
