@@ -40,7 +40,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 1. Click on the `Add contact` button
 1. Select `Select an existing contact`
 1. Select a contact. The list contains the contacts from your company who already have a `Console User` profile.
-1. Click on the `Add Contact access` button to approve the key.
+1. Click on the `Add Contact` button to add access to this contact.
 
 ![Add existing company contact form](../img/helpdesk_add_access.png)
 
@@ -49,7 +49,7 @@ Go to the `User Access` tab to see the list of contacts having a support access.
 1. Click on the `Add contact` button
 1. Select `Select other contact`
 1. Enter the email of the contact, `This contact exists in the portal.` must appear.
-1. Click on the `Add Contact access` button to approve the key.
+1. Click on the `Add Contact` button to add access to this existing user.
 
 ![Add existing contact form](../img/helpdesk_add_existing_contact.png)
 
@@ -64,7 +64,7 @@ The external contact will be visible from the contacts of your company and will 
 1. Choose if the contact is from the company or an external one.
 1. Fill in the contact information.
 1. In the case of a company contact, you can assign them to different groups
-1. Click on the `Add Contact access` button to approve the key.
+1. Click on the `Add Contact` button to add access to this new contact.
 
 ![Add contact form](../img/helpdesk_add_access.gif)
 
@@ -83,7 +83,7 @@ Access to the Helpdesk is granted using a separate account (the authentication i
 # Remove an access
 
 1. Go to the `User Access` tab to see the list of contacts with support access.
-1. On the user's line you want to remove, click on the `Trash bin` icon that appears when hovering.
+1. On the user's line you want to remove, click on the `Trash bin` icon.
 
 ::: info
 Please wait a moment for the change to be effective. The status will first be in `deletion pending`. Once done, the user will be removed from the list. 
