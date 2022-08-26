@@ -41,7 +41,7 @@ You can see the Project Manager list with your permissions.
 ![Select a contact](../img/add_project_manager.png)
 
 ::: info
-Only **active** users of your company and external contacts linked to your project are going to appear on the list.
+Only **active** users of your company are going to appear on the list.
 If your contact isn't in the list, you can follow the link to **create a new contact** for your company.
 :::
 
