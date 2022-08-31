@@ -38,7 +38,7 @@ yarn-install-dev: docker-build ## Install JS dependencies with yarn.lock file an
 	$(DOCKER_RUN) ${DOCKER_IMAGE_TAG} yarn install
 
 .PHONY: watch
-watch: yarn-install-dev ## Run on http://localhost:8000 the Helpcenter, with auto refresh on file changes
+watch: yarn-install-dev ## Run on http://localhost:8010 the Helpcenter, with auto refresh on file changes
 	$(DOCKER_RUN) --expose=8010 -p=8010:8000 -p=35729:35729 ${DOCKER_IMAGE_TAG} yarn gulp serve
 
 .PHONY: build
