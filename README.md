@@ -18,7 +18,7 @@ This is only building the documentation. The documentation is not available with
 $ make watch
 ```
 
-The help center website is then available on `http://localhost:8000/`.
+The help center website is then available on `http://localhost:8010/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
 ### Manual deployment
